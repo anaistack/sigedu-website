@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-22T13:36:15+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">SIGEDU</title><subtitle>ACL Special Interest Group for Building Educational Applications.</subtitle><author><name>Your Name</name></author><entry><title type="html">Educational NLP at EMNLP 2022</title><link href="http://localhost:4000/blog/edunlp-at-emnlp2022/" rel="alternate" type="text/html" title="Educational NLP at EMNLP 2022" /><published>2023-01-02T00:00:00+01:00</published><updated>2023-01-02T00:00:00+01:00</updated><id>http://localhost:4000/blog/edunlp-at-emnlp2022</id><content type="html" xml:base="http://localhost:4000/blog/edunlp-at-emnlp2022/"><![CDATA[<p><strong>Proceedings</strong>: <a href="https://preview.aclanthology.org/emnlp-22-ingestion/volumes/2022.emnlp-main/">https://preview.aclanthology.org/emnlp-22-ingestion/volumes/2022.emnlp-main/</a></p>
+
+<p><strong>Topics</strong>: <img src="https://img.shields.io/badge/%20-automated_item_generation_(AIG)-red?style=flat-square" alt="automated item generation (AIG)" /> 
+<img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" />
+<img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" />
+<img src="https://img.shields.io/badge/%20-grammatical_error_correction_(GEC)-yellowgreen?style=flat-square" alt="grammatical error correction (GEC)" /> 
+<img src="https://img.shields.io/badge/%20-knowledge_tracing-333CFF?style=flat-square" alt="knowledge-tracing" />
+<img src="https://img.shields.io/badge/%20-math-E0FFFF?style=flat-square" alt="math" /> 
+<img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" />
+<img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /> 
+<img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /> 
+<img src="https://img.shields.io/badge/%20-writing_assistance-blueviolet?style=flat-square" alt="writing-assistance" /></p>
+
+<ul>
+  <li>Generative Language Models for Paragraph-Level Question Generation. Asahi Ushio, Fernando Alva-Manchego, Jose Camacho-Collados [<a href="https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.42.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="AIG" /></li>
+  <li>Learning to Generate Question by Asking Question: A Primal-Dual Approach with Uncommon Word Generation. Qifan Wang, Li Yang, Xiaojun Quan, Fuli Feng, Dongfang Liu, Zenglin Xu, Sinong Wang, Hao Ma [<a href="https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.4.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="AIG" /></li>
+  <li>Automatic Generation of Socratic Subquestions for Teaching Math Word Problems. Kumar Shridhar,  Jakub Macina, Mennatallah El-Assady, Tanmay Sinha, Manu Kapur,  Mrinmaya Sachan [<a href="https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.277.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="AIG" /> <img src="https://img.shields.io/badge/%20-math-E0FFFF?style=flat-square" alt="math" /></li>
+  <li>RuCoLA: Russian Corpus of Linguistic Acceptability. Vladislav Mikhailov, Tatiana Shamardina, Max Ryabinin, Alena Pestova, Ivan Smurov, Ekaterina Artemova [<a href="https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.348.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /></li>
+  <li>CEFR-Based Sentence Difficulty Annotation and Assessment. Yuki Arase, Satoru Uchida, Tomoyuki Kajiwara [<a href="https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.416.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /></li>
+  <li>Linguistic Corpus Annotation for Automatic Text Simplification Evaluation. Rémi Cardon, Adrien Bibal, Rodrigo Wilkens, David Alfter, Magali Norré, Adeline Müller, Watrin Patrick, Thomas François [<a href="https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.121.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>Improved grammatical error correction by ranking elementary edits. Alexey Sorokin [<a href="https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.785.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>Mask the Correct Tokens: An Embarrassingly Simple Approach for Error Correction. Kai Shen, Yichong Leng, Xu Tan, Siliang Tang, Yuan Zhang, Wenjie Liu, Edward Lin [<a href="https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.708.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>Revisiting Grammatical Error Correction Evaluation and Beyond. Peiyuan Gong, Xuebo Liu, Heyan Huang, Min Zhang [<a href="https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.463.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>SynGEC: Syntax-Enhanced Grammatical Error Correction with a Tailored GEC-Oriented Parser. Yue Zhang, Bo Zhang, Zhenghua Li, Zuyi Bao, Chen Li, Min Zhang [<a href="https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.162.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>Improving Chinese Spelling Check by Character Pronunciation Prediction: The Effects of Adaptivity and Granularity. Jiahao Li, Quan Wang, Zhendong Mao, Junbo Guo, Yanyan Yang, Yongdong Zhang [<a href="https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.287.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /> <img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /></li>
+  <li>Open-Ended Knowledge Tracing for Computer Science Education. Naiming Liu, Zichao Wang, Richard Baraniuk, Andrew Lan [<a href="https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.254.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-knowledge_tracing-333CFF?style=flat-square" alt="knowledge-tracing" /></li>
+  <li>A Unified Neural Network Model for Readability Assessment with Feature Projection and Length-Balanced Loss. Wenbiao Li, Wang Ziyang, Yunfang Wu [<a href="https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.504.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /></li>
+  <li>AEG: Argumentative Essay Generation via A Dual-Decoder Model with Content Planning. Jianzhu Bao, Yasheng Wang, Yitong Li, Fei Mi, Ruifeng Xu [<a href="https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.343.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-writing_assistance-blueviolet?style=flat-square" alt="writing-assistance" /></li>
+  <li>Improving Iterative Text Revision by Learning Where to Edit from Other Revision Tasks. Zae Myung Kim, Wanyu Du, Vipul Raheja, Dhruv Kumar, Dongyeop Kang [<a href="https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.678.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-writing_assistance-blueviolet?style=flat-square" alt="writing-assistance" /></li>
+</ul>
+
+<p><strong>The Text Simplification, Accessibility, and Readability (TSAR) workshop @EMNLP 2022</strong>:</p>
+<ul>
+  <li>A Dataset of Word-Complexity Judgements from Deaf and Hard-of-Hearing Adults for Text Simplification. Oliver Alonzo, Sooyeon Lee, Mounica Maddela, Wei Xu, Matt Huenerfauth <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" /> <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /></li>
+  <li>IrekiaLF_es: a New Open Benchmark and Baseline Systems for Spanish Automatic Text Simplification. Itziar Gonzalez-Dios, Iker Gutiérrez-Fandiño, Oscar M. Cumbicus-Pineda, Aitor Soroa <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>JADES: New Text Simplification Dataset in Japanese Targeted at Non-Native Speakers. Akio Hayakawa, Tomoyuki Kajiwara, Hiroki Ouchi, Taro Watanabe <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>Conciseness: An Overlooked Language Task. Felix Stahlberg, Aashish Kumar, Chris Alberti, Shankar Kumar [<a href="https://arxiv.org/pdf/2211.04126.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-writing_assistance-blueviolet?style=flat-square" alt="writing-assistance" /></li>
+  <li>Revision for Concision: A Constrained Paraphrase Generation Task. Wenchuan Mu, Kwan Hui Lim [<a href="https://arxiv.org/pdf/2210.14257.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-writing_assistance-blueviolet?style=flat-square" alt="writing-assistance" /></li>
+  <li>Controlling Japanese Machine Translation Output by Using JLPT Vocabulary Levels. Alberto Poncelas, Ohnmar Htun <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" /></li>
+  <li>A Benchmark for Neural Readability Assessment of Texts in Spanish. Laura Vásquez-Rodríguez, Pedro-Manuel Cuenca-Jiménez, Sergio Morales-Esquivel, Fernando Alva-Manchego <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /></li>
+  <li>Eye-tracking based classification of Mandarin Chinese readers with and without dyslexia using neural sequence models. Patrick Haller, Andreas Säuberli, Sarah Kiener, Jinger Pan, Ming Yan, Lena Jäger [<a href="https://arxiv.org/pdf/2210.09819.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /></li>
+  <li>The Fewer Splits are Better: Deconstructing Readability in Sentence Splitting. Tadashi Nomoto (#readability)</li>
+  <li>An Investigation into the Effect of Control Tokens on Text Simplification. Zihao Li, Matthew Shardlow, Saeed Hassan <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>Controllable Lexical Simplification for English. Kim Cheng Sheang, Daniel Ferrés, Horacio Saggion <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>Divide-and-Conquer Text Simplification by Scalable Data Enhancement. Sanqiang Zhao, Rui Meng, Hui Su, Daqing He <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>Findings of the TSAR-2022 Shared Task on Multilingual Lexical Simplification. Horacio Saggion, Sanja Štajner, Daniel Ferrés, Kim Cheng Sheang, Matthe Shardlow, Kai North, Marcos Zampieri <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>Improving Text Simplification with Factuality Error Detection. Yuan Ma, Sandaru Seneviratne, Elena Daskalaki <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>Lexical Simplification in Foreign Language Learning: Creating Pedagogically Suitable Simplified Example Sentences. Jasper Degraeuwe, Horacio Saggion <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>Lexically Constrained Decoding with Edit Operation Prediction for Controllable Text Simplification. Tatsuya Zetsu, Tomoyuki Kajiwara, Yuki Arase <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>Parallel Corpus Filtering for Japanese Text Simplification. Koki Hatagaki, Tomoyuki Kajiwara, Takashi Ninomiya <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>Patient-friendly Clinical Notes: Towards a new Text Simplification Dataset. Jan Trienes, Jörg Schlötterer, Hans-Ulrich Schildhaus, Christin Seifert [<a href="https://jantrienes.com/assets/papers/tsar2022.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>(Psycho-)Linguistic Features Meet Transformer Models for Improved Explainable and Controllable Text Simplification. Yu Qiao, Xiaofei Li, Daniel Wiechmann, Elma Kerz [<a href="https://arxiv.org/pdf/2212.09848.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>Target-Level Sentence Simplification as Controlled Paraphrasing. Tannon Kew, Sarah Ebling <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+</ul>]]></content><author><name>BEA Team</name><email>bea.nlp.workshop@gmail.com</email></author><category term="blog" /><category term="conferences" /><category term="EMNLP" /><summary type="html"><![CDATA[A list of interesting papers on EduNLP at the 2022 EMNLP conference]]></summary></entry><entry><title type="html">BEA18 Announcement</title><link href="http://localhost:4000/news/bea18-announcement/" rel="alternate" type="text/html" title="BEA18 Announcement" /><published>2022-12-19T00:00:00+01:00</published><updated>2022-12-19T00:00:00+01:00</updated><id>http://localhost:4000/news/bea18-announcement</id><content type="html" xml:base="http://localhost:4000/news/bea18-announcement/"><![CDATA[<p>We are thrilled to announce that the <a href="/bea/18">18th edition of the BEA workshop</a> will take place at <a href="https://2023.aclweb.org">ACL 2023</a> in Toronto, Canada on July 13 or 14, 2023.</p>]]></content><author><name>BEA Team</name><email>bea.nlp.workshop@gmail.com</email></author><category term="news" /><category term="conferences" /><summary type="html"><![CDATA[We are thrilled to announce that the 18th edition of the BEA workshop will take place at ACL 2023 in Toronto, Canada on July 13 or 14, 2023.]]></summary></entry><entry><title type="html">Call for Participation: Personalized Adventures in Learning (PAL): The Future of AI in Education</title><link href="http://localhost:4000/guest/news/pal-the-future-of-ai-in-education/" rel="alternate" type="text/html" title="Call for Participation: Personalized Adventures in Learning (PAL): The Future of AI in Education" /><published>2022-10-17T00:00:00+02:00</published><updated>2022-10-17T00:00:00+02:00</updated><id>http://localhost:4000/guest/news/pal-the-future-of-ai-in-education</id><content type="html" xml:base="http://localhost:4000/guest/news/pal-the-future-of-ai-in-education/"><![CDATA[<p>The <strong>Personalized Adventures in Learning (PAL): The Future of AI in Education</strong> virtual workshop, taking place this and next week (Oct 18-19 and Oct 24-25), 1:00PM - 5:00PM EST, may be of interest to the SIGEDU and BEA community. Topics covered include production of AI personalized platforms, ethics, assessment, large scale systems, and commercialization. The workshop is free to attend on Zoom. See the program here: <a href="https://learning-pal.org/#workshop">https://learning-pal.org/#workshop.</a>.</p>]]></content><author><name> </name></author><category term="guest" /><category term="news" /><category term="conferences" /></entry><entry><title type="html">NLP4CALL 2022 Second Call for Papers</title><link href="http://localhost:4000/blog/guest/news/nlp4call/" rel="alternate" type="text/html" title="NLP4CALL 2022 Second Call for Papers" /><published>2022-08-30T00:00:00+02:00</published><updated>2022-08-30T00:00:00+02:00</updated><id>http://localhost:4000/blog/guest/news/nlp4call</id><content type="html" xml:base="http://localhost:4000/blog/guest/news/nlp4call/"><![CDATA[<p>The workshop series on Natural Language Processing (NLP) for Computer-Assisted Language Learning (NLP4CALL) is a meeting place for researchers working on the integration of Natural Language Processing and Speech Technologies in CALL systems and exploring the theoretical and methodological issues arising in this connection. The latter includes, among others, insights from Second Language Acquisition (SLA) research, on the one hand, and promote development of “Computational SLA” through setting up Second Language research infrastructure(s), on the other.</p>
+
+<p>The intersection of Natural Language Processing (or Language Technology / Computational Linguistics) and Speech Technology with Computer-Assisted Language Learning (CALL) brings “understanding” of language to CALL tools, thus making CALL intelligent. This fact has given the name for this area of research – Intelligent CALL, ICALL. As the definition suggests, apart from having excellent knowledge of Natural Language Processing and/or Speech Technology, ICALL researchers need good insights into second language acquisition theories and practices, as well as knowledge of second language pedagogy and didactics. This workshop invites therefore a wide range of ICALL-relevant research, including studies where NLP-enriched tools are used for testing SLA and pedagogical theories, and vice versa, where SLA theories, pedagogical practices or empirical data are modeled in ICALL tools.</p>
+
+<p>The NLP4CALL workshop series is aimed at bringing together competences from these areas for sharing experiences and brainstorming around the future of the field.</p>
+
+<p>We welcome papers:</p>
+
+<ul>
+  <li>that describe research directly aimed at ICALL;</li>
+  <li>that demonstrate actual or discuss the potential use of existing Language and Speech Technologies or resources for language learning;</li>
+  <li>that describe the ongoing development of resources and tools with potential usage in ICALL, either directly in interactive applications, or indirectly in materials, application or curriculum development, e.g. learning material generation, assessment of learner texts and responses, individualized learning solutions, provision of feedback;</li>
+  <li>that discuss challenges and/or research agenda for ICALL</li>
+  <li>that describe empirical studies on language learner data.</li>
+</ul>
+
+<p>This year a special focus is given to work done on second language vocabulary and grammar profiling, as well as the use of crowdsourcing for creating, collecting and curating data in NLP projects.</p>
+
+<p>We encourage paper presentations and software demonstrations describing the above-mentioned themes primarily, but not exclusively, for the Nordic languages.</p>
+
+<h2 id="invited-speakers">Invited speakers</h2>
+
+<p>This year, we have the pleasure to announce two invited talks.</p>
+
+<p>The first talk is by Christopher Bryant from Reverso and the University of Cambridge.
+The second talk is given by Marije Michel from the University of Amsterdam.</p>
+
+<h2 id="submission-information">Submission information</h2>
+
+<p>Authors are invited to submit long papers (8-12 pages) alternatively short papers (4-7 pages), page count not including references. We will be using the NLP4CALL workshop template for the workshop this year. The author kit, including LaTeX and Microsoft Word templates can be accessed here, alternatively on Overleaf:</p>
+
+<ul>
+  <li>&lt;<a href="https://spraakbanken.gu.se/sites/default/files/2022/NLP4CALL%20workshop%20template.zip">https://spraakbanken.gu.se/sites/default/files/2022/NLP4CALL%20workshop%20template.zip</a>&gt;</li>
+  <li>&lt;<a href="https://spraakbanken.gu.se/sites/default/files/2022/nlp4call%20template.doc">https://spraakbanken.gu.se/sites/default/files/2022/nlp4call%20template.doc</a>&gt;</li>
+  <li>&lt;<a href="https://www.overleaf.com/latex/templates/nlp4call-workshop-template/qqqzqqyvtqqv">https://www.overleaf.com/latex/templates/nlp4call-workshop-template/qqqzqqyvtqqv</a>&gt;</li>
+</ul>
+
+<p>Submissions will be managed through the electronic conference management system <a href="https://easychair.org/conferences/?conf=nlp4call2022">EasyChair</a>. Papers must be submitted digitally through the conference management system, in PDF format. Final camera-ready versions of accepted papers will be given an additional page to address reviewer comments.</p>
+
+<p>Papers should describe original unpublished work or work-in-progress. Papers will be peer reviewed by at least two members of the program committee in a double-blind fashion. All accepted papers will be collected into a proceedings volume to be submitted for publication in the NEALT Proceeding Series (Linköping Electronic Conference Proceedings) and, additionally, double-published through the ACL anthology, following experiences from the previous NLP4CALL editions 
+(&lt;<a href="https://www.aclweb.org/anthology/venues/nlp4call/">https://www.aclweb.org/anthology/venues/nlp4call/</a>&gt;).</p>
+
+<h2 id="important-dates">Important dates</h2>
+
+<ul>
+  <li><strong>7 October 2022: paper submission deadline</strong></li>
+  <li>4 November 2022: notification of acceptance</li>
+  <li>25 November 2022: camera-ready papers for publication</li>
+  <li>9 December 2022: workshop date</li>
+</ul>
+
+<h2 id="organizers">Organizers</h2>
+
+<p>David Alfter (1,2), Elena Volodina (2), Thomas François (1), Piet Desmet (3), Frederik Cornillie (3), Arne Jönsson (4), Eveline Rennes (4)</p>
+
+<ul>
+  <li>(1) CENTAL, Institute for Language and Communication, Université Catholique de Louvain, Belgium</li>
+  <li>(2) Språkbanken, Department of Swedish, Multilingualism, Language Technology, University of Gothenburg, Sweden</li>
+  <li>(3) Itec, Department of Linguistics at KU Leuven &amp; imec, Belgium</li>
+  <li>(4) Department of Computer and Information Science, Linköping University, Sweden</li>
+</ul>
+
+<h2 id="contact">Contact</h2>
+
+<p>For any questions, please contact David Alfter, david.alfter@uclouvain.be</p>
+
+<p>For further information, see the <a href="https://spraakbanken.gu.se/en/research/themes/icall/nlp4call-workshop-series/nlp4call2022">workshop website</a></p>
+
+<p>Follow us on Twitter <a href="https://twitter.com/NLP4CALL/">@NLP4CALL</a></p>]]></content><author><name> </name></author><category term="blog" /><category term="guest" /><category term="news" /><category term="conferences" /><summary type="html"><![CDATA[11th NLP4CALL Workshop, Louvain-la-Neuve, Belgium.]]></summary></entry><entry><title type="html">SIGEDU Newsletter – August 2022</title><link href="http://localhost:4000/blog/news/sigedu-newsletter-4/" rel="alternate" type="text/html" title="SIGEDU Newsletter – August 2022" /><published>2022-08-09T00:00:00+02:00</published><updated>2022-08-09T00:00:00+02:00</updated><id>http://localhost:4000/blog/news/sigedu-newsletter-4</id><content type="html" xml:base="http://localhost:4000/blog/news/sigedu-newsletter-4/"><![CDATA[<p>Hi all,</p>
+
+<p>We hope you are enjoying the summer.</p>
+
+<p>To keep you updated about the recent news on educational applications,
+for this newsletter, we’ve collected lists of the EduNLP publications in
+the recent conferences, job announcements, upcoming calls for papers,
+among other things:</p>
+
+<ul>
+  <li>
+    <p><a href="#bea-announcements">BEA Announcements</a></p>
+  </li>
+  <li>
+    <p><a href="#calls-for-papers">Calls for Papers</a></p>
+  </li>
+  <li>
+    <p><a href="#calls-for-papers">Resources</a></p>
+  </li>
+  <li>
+    <p><a href="#job-postings">Job Postings</a></p>
+  </li>
+  <li>
+    <p><a href="#edunlp-publications">EduNLP Publications</a></p>
+  </li>
+</ul>
+
+<p>If you have news, would like to share resources, tools, announce job
+positions, conference or workshop calls, or publish a blog post on
+educational applications, please get in touch!</p>
+
+<p>Happy reading,</p>
+
+<p>SIGEDU team</p>
+
+<h2 id="bea-announcements">BEA Announcements</h2>
+
+<h3 id="ambassador-paper">Ambassador paper</h3>
+
+<p>We are pleased to announce that <a href="https://aclanthology.org/2022.bea-1.26/">Educational Multi-Question Generation for Reading Comprehension</a> by Manav Rathod, Tony Tu and Katherine Stasaski was selected as the BEA 2022 ambassador paper. Congratulations to the authors! This paper will be presented at one of the <a href="https://alliancelss.com/">IAALDE</a> conferences next year.</p>
+
+<h3 id="bea-2023">BEA 2023</h3>
+
+<p>Looking forward, we are already planning BEA 2023 and we invite
+proposals for shared tasks to be hosted at the workshop. If you would
+like to run a shared task at BEA 2023, please get in touch via
+<a href="mailto:bea.nlp.workshop@gmail.com">bea.nlp.workshop@gmail.com</a>.</p>
+
+<h2 id="calls-for-papers">Calls for Papers</h2>
+
+<h3 id="ijaied-special-issue-cfp">IJAIED Special Issue CFP</h3>
+
+<p><a href="mailto:giora.alexandron@weizmann.ac.il">Giora Alexandron</a>
+(Weizmann Institute of Science), <a href="mailto:bbeigmanklebanov@ets.org">Beata Beigman Klebanov</a> (Educational Testing Service), <a href="mailto:komachi@tmu.ac.jp">Mamoru Komachi</a> (Tokyo Metropolitan
+University), and <a href="mailto:torsten.zesch@fernuni-hagen.de">Torsten Zesch</a>
+(FernUniversität in Hagen) are guest editing a Special Issue (SI) of
+the International Journal of Artificial Intelligence in Education
+(IJAIED) entitled: “<em>Educational NLP for a Multilingual World: Research, Applications, and Challenges</em>”. The SI will have a semi-open
+call with a mandatory initial extended abstract submission (1000 words
+max) that shall be submitted to the guest editors
+<a href="mailto:ijaied.nlp.mlw@gmail.com">ijaied.nlp.mlw@gmail.com</a>
+by <strong>October 15, 2022</strong>.</p>
+
+<p>Find the full description and CFP at:
+<a href="https://iaied.us16.list-manage.com/track/click?u=6343a3169b7459396943f547e&amp;id=923f2795fc&amp;e=fa7b76c0eb">https://www.springer.com/journal/40593/updates/23181128</a></p>
+
+<p>Please do not hesitate to reach out to any of the guest editors if you
+have any questions.</p>
+
+<h3 id="thirteenth-aaai-symposium-on-educational-advances-in-artificial-intelligence-eaai-23-cfp">Thirteenth AAAI Symposium on Educational Advances in Artificial Intelligence (EAAI-23) CFP</h3>
+
+<p>Thirteenth AAAI Symposium on Educational Advances in Artificial
+Intelligence is co-located with AAAI-23 (February 11-12, 2023;
+Washington, D.C., USA).</p>
+
+<p>The main track invites a broad range of papers on teaching AI and
+teaching with AI. Submissions may be framed as research papers or as
+experience reports. Potential topics include:</p>
+
+<ul>
+  <li>
+    <p>The design of an AI curriculum, course, or module.</p>
+  </li>
+  <li>
+    <p>The development or use of a tool or resource to teach AI.</p>
+  </li>
+  <li>
+    <p>The impact of a pedagogical or mentoring technique on AI students.</p>
+  </li>
+</ul>
+
+<p><strong>Important dates</strong>:</p>
+
+<ul>
+  <li>
+    <p>Abstract deadline: <strong>August 31</strong>, 2022 at 11:59 PM UTC-12 (anywhere
+on earth)</p>
+  </li>
+  <li>
+    <p>Paper deadline: <strong>September 11</strong>, 2022 at 11:59 PM UTC-12 (anywhere
+on earth)</p>
+  </li>
+  <li>
+    <p>Notification date: November 18, 2022</p>
+  </li>
+  <li>
+    <p>Symposium dates: February 11-12, 2023</p>
+  </li>
+</ul>
+
+<p><strong>More information</strong>:
+<a href="https://aaai.org/Conferences/AAAI-23/eaai-23-call/">https://aaai.org/Conferences/AAAI-23/eaai-23-call/</a></p>
+
+<h3 id="workshop-on-text-simplification-accessibility-and-readability-tsar-2022-cfp">Workshop on Text Simplification, Accessibility, and Readability (TSAR-2022) CFP</h3>
+
+<p>The Text Simplification, Accessibility, and Readability (TSAR)
+workshop is co-located with EMNLP 2022 (December 7–11, 2022; Abu
+Dhabi, UAE).</p>
+
+<p>The Text Simplification, Accessibility, and Readability (TSAR)
+workshop aims at bringing together researchers, developers and
+industries of assistive technologies, public organizations
+representatives, and other parties interested in the problem of making
+information more accessible to all citizens. We will discuss recent
+trends and developments in the area of automatic text simplification,
+automatic readability assessment, language resources and evaluation
+for text simplification, etc.</p>
+
+<p><strong>Important dates</strong>:</p>
+
+<ul>
+  <li>
+    <p><strong>7 September 2022</strong>: Workshop paper submission deadline (Softconf).
+All submissions have to go through softconf.</p>
+  </li>
+  <li>
+    <p>9 October 2022: Workshop paper notification deadline</p>
+  </li>
+  <li>
+    <p>16 October 2022: Workshop paper camera-ready deadline</p>
+  </li>
+  <li>
+    <p>8 December 2022: Workshop</p>
+  </li>
+</ul>
+
+<p><strong>More information</strong>:
+<a href="https://taln.upf.edu/pages/tsar2022-ws/#home">https://taln.upf.edu/pages/tsar2022-ws/#home</a></p>
+
+<h2 id="resources">Resources</h2>
+
+<p>There were a few new resources released at BEA 2022:</p>
+
+<ul>
+  <li>
+    <p>A Baseline Readability Model for Cebuano. Joseph Marvin Imperial,
+Lloyd Lois Antonie Reyes, Michael Antonio Ibanez, Ranz Sapinit and
+Mohammed Hussien
+<a href="https://aclanthology.org/2022.bea-1.5/">[paper]</a>
+<a href="https://github.com/imperialite/cebuano-readability">[resources]</a></p>
+  </li>
+  <li>
+    <p>A Dependency Treebank of Spoken Second Language English. Kristopher
+Kyle, Masaki Eguchi, Aaron Miller and Theodore Sither
+<a href="https://aclanthology.org/2022.bea-1.7/">[paper]</a>
+<a href="https://github.com/LCR-ADS-Lab/SL2E-Dependency-Treebank">[resources]</a></p>
+  </li>
+  <li>
+    <p>Computationally Identifying Funneling and Focusing Questions in
+Classroom Discourse. Sterling Alic, Dorottya Demszky, Zid
+Mancenido, Jing Liu, Heather Hill and Dan Jurafsky
+<a href="https://aclanthology.org/2022.bea-1.27/">[paper]</a>
+<a href="https://github.com/sterlingalic/funneling-focusing">[resources]</a></p>
+  </li>
+  <li>
+    <p>Don’t Drop the Topic - The Role of the Prompt in Argument
+Identification in Student Writing. Yuning Ding, Marie Bexte and
+Andrea Horbach
+<a href="https://aclanthology.org/2022.bea-1.17/">[paper]</a>
+<a href="https://github.com/yuningDING/BEA-NAACL-2022-38">[resources]</a></p>
+  </li>
+  <li>
+    <p>Educational Multi-Question Generation for Reading Comprehension.
+Manav Rathod, Tony Tu and Katherine Stasaski
+<a href="https://aclanthology.org/2022.bea-1.26/">[paper]</a>
+<a href="https://github.com/kstats/MultiQuestionGeneration">[resources]</a></p>
+  </li>
+  <li>
+    <p>Educational Tools for Mapuzugun. Cristian Ahumada, Claudio Gutierrez
+and Antonios Anastasopoulos
+<a href="https://aclanthology.org/2022.bea-1.23/">[paper]</a>
+<a href="https://sig-edu.org/bea/crahumadao.pythonanywhere.com">[resources]</a></p>
+  </li>
+  <li>
+    <p>Generation of Synthetic Error Data of Verb Order Errors for Swedish.
+Judit Casademont Moner and Elena Volodina
+<a href="https://aclanthology.org/2022.bea-1.6/">[paper]</a>
+<a href="https://github.com/juditcasademont/Generation-of-synthetic-error-data-LTR-project">[resources]</a></p>
+  </li>
+  <li>
+    <p>Response Construct Tagging: NLP-Aided Assessment for Engineering
+Education. Ananya Ganesh, Hugh Scribner, Jasdeep Singh, Katherine
+Goodman, Jean Hertzberg and Katharina Kann
+<a href="https://aclanthology.org/2022.bea-1.29/">[paper]</a>
+<a href="https://nala-cub.github.io/resources/">[resources]</a></p>
+  </li>
+  <li>
+    <p>Similarity-based Content Scoring - How to Make S-BERT Keep up with
+BERT. Marie Bexte, Andrea Horbach and Torsten Zesch
+<a href="https://aclanthology.org/2022.bea-1.16/">[paper]</a>
+<a href="https://github.com/mariebexte/s-bert-similarity-based-content-scoring">[resources]</a></p>
+  </li>
+  <li>
+    <p>The Specificity and Helpfulness of Peer-to-Peer Feedback in Higher
+Education. Roman Rietsche, Andrew Caines, Cornelius Schramm,
+Dominik Pfütze and Paula Buttery
+<a href="https://aclanthology.org/2022.bea-1.15/">[paper]</a>
+<a href="https://github.com/RomanRietsche/feedbackspecificity">[resources]</a></p>
+  </li>
+  <li>
+    <p>Towards an open-domain chatbot for language practice. Gladys Tyen,
+Mark Brenchley, Andrew Caines and Paula Buttery
+<a href="https://aclanthology.org/2022.bea-1.28/">[paper]</a>
+<a href="https://github.com/WHGTyen/ControllableComplexityChatbot/">[resources]</a></p>
+  </li>
+</ul>
+
+<h2 id="job-postings">Job Postings</h2>
+
+<ul>
+  <li>
+    <p><strong>Educator</strong> (various levels) at Grok Academy <a href="https://groklearning.com/educator-ad/">[more information]</a></p>
+  </li>
+  <li>
+    <p><strong>Data Scientist</strong>, Educational Assessment at Carnegie Learning, Inc. <a href="https://www.paycomonline.net/v4/ats/web.php/jobs/ViewJobDetails?job=45821&amp;clientkey=5A4F90A76FC25176D905F555FF2C8ACC">[more information]</a></p>
+  </li>
+  <li>
+    <p><strong>Postdoc</strong> in Game-Based Learning &amp; Intelligent Tutoring at Carnegie Mellon University <a href="https://apply.interfolio.com/108090">[more information]</a></p>
+  </li>
+  <li>
+    <p><strong>Machine Learning Researcher</strong> at Apple Education Team <a href="https://jobs.apple.com/en-us/details/200342313/machine-learning-researcher-acs-education-team?team=SFTWR">[more information]</a></p>
+  </li>
+  <li>
+    <p><strong>Postdoc positions</strong> at AI-ALOE Research Institute at National AI Research Institute for Adult Learning and Online Education <a href="http://aialoe.org/positions/">[more information]</a></p>
+  </li>
+  <li>
+    <p><strong>Postdoc</strong> in Educational Data Mining at the University of Sydney.
+The position is for a postdoctoral fellow to work on Educational
+Data Mining projects for computer programming education, with an
+emphasis on hints and feedback generation (to teachers as well as
+learners). The right candidate must have strong technical skills
+in data mining and machine learning, as well as a genuine interest
+in human-in-the-loop approaches. Position is available for 2
+years, with a possibility to extend. Please contact Kalina Yacef
+(<a href="mailto:kalina.yacef@sydney.edu.au">kalina.yacef@sydney.edu.au</a>)
+if you are interested.</p>
+  </li>
+  <li>
+    <p><strong>Program Manager</strong> in Learning Analytics at University of Pennsylvania <a href="https://wd1.myworkdaysite.com/recruiting/upenn/careers-at-penn/job/Graduate-School-of-Education/Program-Manager--Learning-Analytics--Hybrid-Eligible-_JR00057369">[more information]</a></p>
+  </li>
+</ul>
+
+<h2 id="edunlp-publications">EduNLP Publications</h2>
+
+<p>A number of conferences have taken place this summer. We’ve collected
+the EduNLP and EdTech highlights for you.</p>
+
+<h3 id="bea-2022">BEA 2022</h3>
+
+<p><a href="https://aclanthology.org/volumes/2022.bea-1/">https://aclanthology.org/volumes/2022.bea-1/</a></p>
+
+<h3 id="acl-2022">ACL 2022</h3>
+
+<p><a href="https://sig-edu.org/blog/edunlp-at-acl2022/">https://sig-edu.org/blog/edunlp-at-acl2022/</a></p>
+
+<h3 id="lrec-2022">LREC 2022</h3>
+
+<p><a href="https://sig-edu.org/blog/edunlp-at-lrec2022/">https://sig-edu.org/blog/edunlp-at-lrec2022/</a></p>
+
+<h3 id="naacl-2022">NAACL 2022</h3>
+
+<p><a href="https://sig-edu.org/blog/edunlp-at-naacl2022/">https://sig-edu.org/blog/edunlp-at-naacl2022/</a></p>
+
+<h3 id="edm-2022">EDM 2022</h3>
+
+<p><a href="https://sig-edu.org/blog/edunlp-at-edm2022/">https://sig-edu.org/blog/edunlp-at-edm2022/</a></p>
+
+<h3 id="aied-2022">AIED 2022</h3>
+
+<p><a href="https://sig-edu.org/blog/edunlp-at-aied2022/">https://sig-edu.org/blog/edunlp-at-aied2022/</a></p>]]></content><author><name>BEA Team</name><email>bea.nlp.workshop@gmail.com</email></author><category term="blog" /><category term="news" /><category term="newsletter" /><summary type="html"><![CDATA[The fourth edition of the SIGEDU/BEA Newsletter.]]></summary></entry><entry><title type="html">Educational NLP at AIED 2022</title><link href="http://localhost:4000/blog/edunlp-at-aied2022/" rel="alternate" type="text/html" title="Educational NLP at AIED 2022" /><published>2022-08-08T00:00:00+02:00</published><updated>2022-08-08T00:00:00+02:00</updated><id>http://localhost:4000/blog/edunlp-at-aied2022</id><content type="html" xml:base="http://localhost:4000/blog/edunlp-at-aied2022/"><![CDATA[<p><strong>Proceedings</strong>: <a href="https://link.springer.com/book/10.1007/978-3-031-11644-5#toc">Part I</a> 
+and <a href="https://link.springer.com/book/10.1007/978-3-031-11647-6#toc">Part II</a></p>
+
+<p><strong>Topics</strong>: <img src="https://img.shields.io/badge/%20-automated_item_generation_(AIG)-red?style=flat-square" alt="automated item generation (AIG)" /> <img src="https://img.shields.io/badge/%20-automated_short_answer_grading_(ASAG)-880808?style=flat-square" alt="automated short answer grading (ASAG)" />
+<img src="https://img.shields.io/badge/%20-assessment-FFBF00?style=flat-square" alt="assessment" /> <img src="https://img.shields.io/badge/%20-automated_writing_evaluation_(AWE)-AA4A44?style=flat-square" alt="automated writing evaluation (AWE)" /> <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" />
+<img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /> <img src="https://img.shields.io/badge/%20-discourse-FBCEB1?style=flat-square" alt="discourse" /> <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /> <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" />
+<img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /> <img src="https://img.shields.io/badge/%20-math-E0FFFF?style=flat-square" alt="math" /> <img src="https://img.shields.io/badge/%20-programming-7393B3?style=flat-square" alt="programming" /> <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" />
+<img src="https://img.shields.io/badge/%20-reading_comprehension-000080?style=flat-square" alt="reading-comprehension" /> <img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /> <img src="https://img.shields.io/badge/%20-vocabulary_acquisition-violet?style=flat-square" alt="vocabulary-acquisition" /></p>
+
+<ul>
+  <li>Towards Human-Like Educational Question Generation with Large Language Models. Zichao Wang, Jakob Valdez, Debshila Basu Mallick, and Richard G. Baraniuk [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_13">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="automated item generation (AIG)" /></li>
+  <li>Evaluating AI-Generated Questions: A Mixed-Methods Analysis Using Question Data and Student Perceptions. Rachel Van Campenhout, Martha Hubertz, and Benny G. Johnson [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_28">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="automated item generation (AIG)" /></li>
+  <li>Automatic Riddle Generation for Learning Resources. Niharika Sri Parasa, Chaitali Diwan, and Srinath Srinivasa [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_66">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="automated item generation (AIG)" /></li>
+  <li>Obj2Sub: Unsupervised Conversion of Objective to Subjective Questions. Aarish Chhabra, Nandini Bansal, V. Venktesh, Mukesh Mohania, and Deep Dwivedi [<a href="https://arxiv.org/pdf/2206.11848.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="automated item generation (AIG)" /></li>
+  <li>First Steps Towards Automatic Question Generation and Assessment of LL(1) Grammars. Ricardo Conejo, José del Campo-Ávila, and Beatriz Barros [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_50">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="automated item generation (AIG)" /> <img src="https://img.shields.io/badge/%20-assessment-FFBF00?style=flat-square" alt="assessment" /></li>
+  <li>Auxiliary Task Guided Interactive Attention Model for Question Difficulty Prediction. V. Venktesh, Md. Shad Akhtar, Mukesh Mohania, and Vikram Goyal [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_39">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="automated item generation (AIG)" /> <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" /></li>
+  <li>Question Personalization in an Intelligent Tutoring System. Sabina Elkins, Ekaterina Kochmar, Robert Belfer, Iulian Serban, and Jackie C. K. Cheung [<a href="https://arxiv.org/pdf/2206.14145.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="automated item generation (AIG)" /> <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" /></li>
+  <li>An Automatic Self-explanation Sample Answer Generation with Knowledge Components in a Math Quiz. Ryosuke Nakamoto, Brendan Flanagan, Yiling Dai, Kyosuke Takami, and Hiroaki Ogata [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_46">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="automated item generation (AIG)" /> <img src="https://img.shields.io/badge/%20-math-E0FFFF?style=flat-square" alt="math" /></li>
+  <li>Automatic Question Generation for Scaffolding Self-explanations for Code Comprehension. Lasang J. Tamang, Rabin Banjade, Jeevan Chapagain, and Vasile Rus [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_77">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="automated item generation (AIG)" /> <img src="https://img.shields.io/badge/%20-programming-7393B3?style=flat-square" alt="programming" /></li>
+  <li>Programming Question Generation by a Semantic Network: A Preliminary User Study with Experienced Instructors. Cheng-Yu Chung, and I-Han Hsiao [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_93">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="automated item generation (AIG)" /> <img src="https://img.shields.io/badge/%20-programming-7393B3?style=flat-square" alt="programming" /></li>
+  <li>Assessing Readability by Filling Cloze Items with Transformers. Andrew M. Olney [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_25">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="automated item generation (AIG)" /> <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /></li>
+  <li>Fully Automated Short Answer Scoring of the Trial Tests for Common Entrance Examinations for Japanese University. Haruki Oka, Hung Tuan Nguyen, Cuong Tuan Nguyen, Masaki Nakagawa, and Tsunenori Ishioka [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_15">paper</a>] <img src="https://img.shields.io/badge/%20-ASAG-880808?style=flat-square" alt="automated short answer grading (ASAG)" /></li>
+  <li>Plausibility and Faithfulness of Feature Attribution-Based Explanations in Automated Short Answer Scoring. Tasuku Sato, Hiroaki Funayama, Kazuaki Hanawa, and Kentaro Inui [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_19">paper</a>] <img src="https://img.shields.io/badge/%20-ASAG-880808?style=flat-square" alt="automated short answer grading (ASAG)" /></li>
+  <li>Representing Scoring Rubrics as Graphs for Automatic Short Answer Grading. Aubrey Condor, Zachary Pardos, and Marcia Linn [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_29">paper</a>] <img src="https://img.shields.io/badge/%20-ASAG-880808?style=flat-square" alt="automated short answer grading (ASAG)" /></li>
+  <li>Balancing Cost and Quality: An Exploration of Human-in-the-Loop Frameworks for Automated Short Answer Scoring. Hiroaki Funayama, Tasuku Sato, Yuichiroh Matsubayashi, Tomoya Mizumoto, Jun Suzuki, and Kentaro Inui [<a href="https://arxiv.org/pdf/2206.08288.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-ASAG-880808?style=flat-square" alt="automated short answer grading (ASAG)" /></li>
+  <li>Assessing the Practical Benefit of Automated Short-Answer Graders. Ulrike Padó [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_114">paper</a>] <img src="https://img.shields.io/badge/%20-ASAG-880808?style=flat-square" alt="automated short answer grading (ASAG)" /></li>
+  <li>Towards Generating Counterfactual Examples as Automatic Short Answer Feedback. Anna Filighera, Joel Tschesche, Tim Steuer, Thomas Tregel, and Lisa Wernet [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_17">paper</a>] <img src="https://img.shields.io/badge/%20-ASAG-880808?style=flat-square" alt="automated short answer grading (ASAG)" /> <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /></li>
+  <li>Enhancing Auto-scoring of Student Open Responses in the Presence of Mathematical Terms and Expressions. Sami Baral, Karthik Seetharaman, Anthony F. Botelho, Anzhuo Wang, George Heineman, and Neil T. Heffernan [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_68">paper</a>] <img src="https://img.shields.io/badge/%20-assessment-FFBF00?style=flat-square" alt="assessment" /></li>
+  <li>Leveraging Natural Language Processing for Quality Assurance of a Situational Judgement Test. Okan Bulut, Alexander MacIntosh, and Cole Walsh [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_14">paper</a>] <img src="https://img.shields.io/badge/%20-assessment-FFBF00?style=flat-square" alt="assessment" /></li>
+  <li>Grading Programming Assignments with an Automated Grading and Feedback Assistant. Marcus Messer [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_6">paper</a>] <img src="https://img.shields.io/badge/%20-assessment-FFBF00?style=flat-square" alt="assessment" /> <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /></li>
+  <li>Exploring Fairness in Automated Grading and Feedback Generation of Open-Response Math Problems. Ashish Gurung, and Neil T. Heffernan [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_12">paper</a>] <img src="https://img.shields.io/badge/%20-assessment-FFBF00?style=flat-square" alt="assessment" /> <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /></li>
+  <li>Automated Support to Scaffold Students’ Written Explanations in Science. Purushartha Singh, Rebecca J. Passonneau, Mohammad Wasih, Xuesong Cang, ChanMin Kim, and Sadhana Puntambekar [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_64">paper</a>] <img src="https://img.shields.io/badge/%20-assessment-FFBF00?style=flat-square" alt="assessment" /> <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" /></li>
+  <li>Towards the Automated Evaluation of Legal Casenote Essays. Mladen Raković, Lele Sha, Gerry Nagtzaam, Nick Young, Patrick Stratmann, Dragan Gašević, and Guanliang Chen [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_14">paper</a>] <img src="https://img.shields.io/badge/%20-AWE-AA4A44?style=flat-square" alt="automated writing evaluation (AWE)" /></li>
+  <li>An Automated Writing Evaluation System for Supporting Self-monitored Revising. Diane Litman, Tazin Afrin, Omid Kashefi, Christopher Olshefski, Amanda Godley, and Rebecca Hwa [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_52">paper</a>] <img src="https://img.shields.io/badge/%20-AWE-AA4A44?style=flat-square" alt="automated writing evaluation (AWE)" /></li>
+  <li>Multitask Summary Scoring with Longformers. Robert-Mihai Botarleanu, Mihai Dascalu, Laura K. Allen, Scott Andrew Crossley, and Danielle S. McNamara [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_79">paper</a>] <img src="https://img.shields.io/badge/%20-AWE-AA4A44?style=flat-square" alt="automated writing evaluation (AWE)" /></li>
+  <li>Increasing Teachers’ Trust in Automatic Text Assessment Through Named-Entity Recognition. Candy Walter [<a href="https://www.researchgate.net/profile/Candy-Walter/publication/361511561_Increasing_teachers'_trust_in_automatic_text_assessment_through_named-entity_recognition/links/62b5d64689e4f1160c98713c/Increasing-teachers-trust-in-automatic-text-assessment-through-named-entity-recognition.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AWE-AA4A44?style=flat-square" alt="automated writing evaluation (AWE)" /> <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" /></li>
+  <li>Semantic Modeling of Programming Practices with Local Knowledge Graphs: The Effects of Question Complexity on Student Performance. Cheng-Yu Chung, and I-Han Hsiao [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_44">paper</a>] <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" /></li>
+  <li>The Impact of Conversational Agents’ Language on Self-efficacy and Summary Writing. Haiying Li, Fanshuo Cheng, Grace Wang, and Art Graeser [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_48">paper</a>] <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /></li>
+  <li>Developing an Inclusive Q&amp;A Chatbot in Massive Open Online Courses. Songhee Han, and Min Liu [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_2">paper</a>] <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /></li>
+  <li>Using Open Source Technologies and Generalizable Procedures in Conversational and Affective Intelligent Tutoring Systems. Romina Soledad Albornoz-De Luise, Miguel Arevalillo-Herráez, and David Arnau [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_9">paper</a>] <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /></li>
+  <li>Toward Accessible Intelligent Tutoring Systems: Integrating Cognitive Tutors and Conversational Agents. Michael Smalenberger, and Kelly Smalenberger [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_82">paper</a>] <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /></li>
+  <li>Dynamic Conversational Chatbot for Assessing Primary Students. Esa Weerasinghe, Thamashi Kotuwegedara, Rangeena Amarasena, Prasadi Jayasinghe, and Kalpani Manathunga [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_89">paper</a>] <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /></li>
+  <li>A Conversational Recommender System for Exploring Pedagogical Design Patterns. Nasrin Dehbozorgi, and Dinesh Chowdary Attota [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_101">paper</a>] <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /></li>
+  <li>On Providing Natural Language Support for Intelligent Tutoring Systems. Romina Soledad Albornoz-De Luise, Pablo Arnau-González, and Miguel Arevalillo-Herráez [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_116">paper</a>] <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /></li>
+  <li>Human-in-the-Loop Data Collection and Evaluation for Improving Mathematical Conversations. Debajyoti Datta, Maria Phillips, James P. Bywater, Sarah Lilly, Jennifer Chiu, Ginger S. Watson, and Donald E. Brown [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_113">paper</a>] <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /> <img src="https://img.shields.io/badge/%20-math-E0FFFF?style=flat-square" alt="math" /></li>
+  <li>Modeling Student Discourse in Online Discussion Forums Using Semantic Similarity Based Topic Chains. Harshita Chopra, Yiwen Lin, Mohammad Amin Samadi, Jacqueline Guadalupe Cavazos, Renzhe Yu, Spencer Jaquay, and Nia Nixon [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_91">paper</a>] <img src="https://img.shields.io/badge/%20-discourse-FBCEB1?style=flat-square" alt="discourse" /></li>
+  <li>“Teacher, Can You Say It Again?” Improving Automatic Speech Recognition Performance over Classroom Environments with Limited Data. Danner Schlotterbeck, Abelino Jiménez, Roberto Araya, Daniela Caballero, Pablo Uribe, and Johan Van der Molen Moris [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_15">paper</a>] <img src="https://img.shields.io/badge/%20-discourse-FBCEB1?style=flat-square" alt="discourse" /> <img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /></li>
+  <li>AI-Enabled Personalized Interview Coach in Rural India. Shriniwas Nayak, Satish Kumar, Dolly Agarwal, and Paras Parikh [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_15">paper</a>] <img src="https://img.shields.io/badge/%20-discourse-FBCEB1?style=flat-square" alt="discourse" /> <img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /></li>
+  <li>Improving Automated Evaluation of Formative Assessments with Text Data Augmentation. Keith Cochran, Clayton Cohn, Nicole Hutchins, Gautam Biswas, and Peter Hastings [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_32">paper</a>] <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /></li>
+  <li>Improving the Quality of Students’ Written Reflections Using Natural Language Processing: Model Design and Classroom Evaluation. Ahmed Magooda, Diane Litman, Ahmed Ashraf, and Muhsin Menekse [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_43">paper</a>] <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /></li>
+  <li>Measuring Inconsistency in Written Feedback: A Case Study in Politeness. Wei Dai, Yi-Shan Tsai, Yizhou Fan, Dragan Gašević, and Guanliang Chen [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_49">paper</a>] <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /></li>
+  <li>Machine Learning Techniques to Evaluate Lesson Objectives. Pei Hua Cher, Jason Wen Yau Lee, and Fernando Bello [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_16">paper</a>] <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" /></li>
+  <li>Fine-grained Main Ideas Extraction and Clustering of Online Course Reviews. Chenghao Xiao, Lei Shi, Alexandra Cristea, Zhaoxing Li, and Ziqi Pan [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_24">paper</a>] <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" /></li>
+  <li>Scaling Mixed-Methods Formative Assessments (mixFA) in Classrooms: A Clustering Pipeline to Identify Student Knowledge. Xinyue Chen, and Xu Wang [<a href="https://web.eecs.umich.edu/~xwanghci/papers/mixfa.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" /></li>
+  <li>What Is Relevant for Learning? Approximating Readers’ Intuition Using Neural Content Selection. Tim Steuer, Anna Filighera, Gianluca Zimmer, and Thomas Tregel [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_41">paper</a>] <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" /></li>
+  <li>Providing Insights for Open-Response Surveys via End-to-End Context-Aware Clustering. Soheil Esmaeilzadeh, Brian Williams, Davood Shamsi, and Onar Vikingstad [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_44">paper</a>] <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" /></li>
+  <li>Extraction of Useful Observational Features from Teacher Reports for Student Performance Prediction. Menna Fateen, and Tsunenori Mine [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_58">paper</a>] <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" /></li>
+  <li>Reflection as an Agile Course Evaluation Tool. Siaw Ling Lo, Pei Hua Cher, and Fernando Bello [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_55">paper</a>] <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" /></li>
+  <li>Prerequisite Graph Extraction from Lectures. Ilaria Torre, Luca Mirenda, Gianni Vercelli, and Fulvio Mastrogiovanni [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_128">paper</a>] <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" /></li>
+  <li>Education Theories and AI Affordances: Design and Implementation of an Intelligent Computer Assisted Language Learning System. Xiaobin Chen, Elizabeth Bear, Bronson Hui, Haemanth Santhi-Ponnusamy, and Detmar Meurers [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_120">paper</a>] <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /></li>
+  <li>Speech and Eye Tracking Features for L2 Acquisition: A Multimodal Experiment. Sofiya Kobylyanskaya [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_8">paper</a>] <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /> <img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /></li>
+  <li>An AI-Based Feedback Visualisation System for Speech Training. Adam T. Wynn, Jingyun Wang, Kaoru Umezawa, and Alexandra I. Cristea [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_104">paper</a>] <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /> <img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /></li>
+  <li>Automatic Identification of Non-native English Speaker’s Phoneme Mispronunciation Tendencies. Shi Pu, Lee Becker, and Misaki Kato [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_126">paper</a>] <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /> <img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /></li>
+  <li>Assessing Readability of Learning Materials on Artificial Intelligence in English for Second Language Learners. Yo Ehara [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_96">paper</a>] <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /></li>
+  <li>On Applicability of Neural Language Models for Readability Assessment in Filipino. Michael Ibañez, Lloyd Lois Antonie Reyes, Ranz Sapinit, Mohammed Ahmed Hussien, and Joseph Marvin Imperial [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_118">paper</a>] <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /></li>
+  <li>Computer-Aided Response-to-Intervention for Reading Comprehension Based on Recommender System. Ming-Chi Liu, Wei-Yang Lin, and Chia-Ling Tsai [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_42">paper</a>] <img src="https://img.shields.io/badge/%20-reading_comprehension-000080?style=flat-square" alt="reading-comprehension" /></li>
+  <li>Automated Scoring for Reading Comprehension via In-context BERT Tuning. Nigel Fernandez, Aritra Ghosh, Naiming Liu, Zichao Wang, Benoît Choffin, Richard Baraniuk, and Andrew Lan [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_69">paper</a>] <img src="https://img.shields.io/badge/%20-reading_comprehension-000080?style=flat-square" alt="reading-comprehension" /></li>
+  <li>How Item and Learner Characteristics Matter in Intelligent Tutoring Systems Data. John Hollander, John Sabatini, and Art Graesser [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_106">paper</a>] <img src="https://img.shields.io/badge/%20-reading_comprehension-000080?style=flat-square" alt="reading-comprehension" /></li>
+  <li>Real-Time Spoken Language Understanding for Orthopedic Clinical Training in Virtual Reality. Han Wei Ng, Aiden Koh, Anthea Foong, Jeremy Ong, Jun Hao Tan, Eng Tat Khoo, and Gabriel Liu [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_61">paper</a>] <img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /></li>
+  <li>An Intelligent Interactive Support System for Word Usage Learning in Second Languages. Yo Ehara [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_37">paper</a>] <img src="https://img.shields.io/badge/%20-vocabulary_acquisition-violet?style=flat-square" alt="vocabulary-acquisition" /></li>
+  <li>Predicting Second Language Learners’ Actual Knowledge Using Self-perceived Knowledge. Yo Ehara [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_71">paper</a>] <img src="https://img.shields.io/badge/%20-vocabulary_acquisition-violet?style=flat-square" alt="vocabulary-acquisition" /></li>
+  <li>An Intelligent Multimodal Dictionary for Chinese Character Learning. Jinglei Yu, Jiachen Song, Penghe Chen, and Yu Lu [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_13">paper</a>] <img src="https://img.shields.io/badge/%20-vocabulary_acquisition-violet?style=flat-square" alt="vocabulary-acquisition" /></li>
+  <li>Using Metacognitive Information and Objective Features to Predict Word Pair Learning Success. Bledar Fazlija, and Mohamed Ibrahim [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_39">paper</a>] <img src="https://img.shields.io/badge/%20-vocabulary_acquisition-violet?style=flat-square" alt="vocabulary-acquisition" /></li>
+  <li>Distributional Estimation of Personalized Second-Language Vocabulary Sizes with Wordlists that the Learner is Likely to Know. Yo Ehara [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_110">paper</a>] <img src="https://img.shields.io/badge/%20-vocabulary_acquisition-violet?style=flat-square" alt="vocabulary-acquisition" /></li>
+</ul>]]></content><author><name>BEA Team</name><email>bea.nlp.workshop@gmail.com</email></author><category term="blog" /><category term="conferences" /><category term="AIED" /><category term="IAALDE" /><summary type="html"><![CDATA[A list of interesting papers on EduNLP at the 2022 AIED conference]]></summary></entry><entry><title type="html">Educational NLP at EDM 2022</title><link href="http://localhost:4000/blog/edunlp-at-edm2022/" rel="alternate" type="text/html" title="Educational NLP at EDM 2022" /><published>2022-08-08T00:00:00+02:00</published><updated>2022-08-08T00:00:00+02:00</updated><id>http://localhost:4000/blog/edunlp-at-edm2022</id><content type="html" xml:base="http://localhost:4000/blog/edunlp-at-edm2022/"><![CDATA[<p><strong>Proceedings</strong>: <a href="https://educationaldatamining.org/edm2022/proceedings/">https://educationaldatamining.org/edm2022/proceedings/</a></p>
+
+<p><strong>Topics</strong>: <img src="https://img.shields.io/badge/%20-automated_item_generation_(AIG)-red?style=flat-square" alt="automated item generation (AIG)" /> <img src="https://img.shields.io/badge/%20-automated_short_answer_grading_(ASAG)-880808?style=flat-square" alt="automated short answer grading (ASAG)" />
+<img src="https://img.shields.io/badge/%20-assessment-FFBF00?style=flat-square" alt="assessment" /> <img src="https://img.shields.io/badge/%20-automated_writing_evaluation_(AWE)-AA4A44?style=flat-square" alt="automated writing evaluation (AWE)" /> <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" />
+<img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /> <img src="https://img.shields.io/badge/%20-discourse-FBCEB1?style=flat-square" alt="discourse" /> <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /> <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" />
+<img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /> <img src="https://img.shields.io/badge/%20-math-E0FFFF?style=flat-square" alt="math" /> <img src="https://img.shields.io/badge/%20-programming-7393B3?style=flat-square" alt="programming" /> <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" />
+<img src="https://img.shields.io/badge/%20-reading_comprehension-000080?style=flat-square" alt="reading-comprehension" /> <img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /> <img src="https://img.shields.io/badge/%20-vocabulary_acquisition-violet?style=flat-square" alt="vocabulary-acquisition" /></p>
+
+<h2 id="best-student-full-paper">Best Student Full Paper</h2>
+
+<ul>
+  <li>Predicting Reading Comprehension Scores of Elementary School Students. Bruce (Yuyang) Nie, Hélène Deacon, Alona Fyshe, Carrie Demmans Epp [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-long-papers.14/">paper</a>] <img src="https://img.shields.io/badge/%20-reading_comprehension-000080?style=flat-square" alt="reading-comprehension" /></li>
+</ul>
+
+<h2 id="best-short-paper">Best Short Paper</h2>
+
+<ul>
+  <li>The AI Teacher Test: Measuring the Pedagogical Ability of Blender and GPT-3 in Educational Dialogues. Anaïs Tack, Chris Piech [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-short-papers.54/index.html">paper</a>] <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /> <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /> <img src="https://img.shields.io/badge/%20-math-E0FFFF?style=flat-square" alt="math" /></li>
+</ul>
+
+<h2 id="long-papers">Long Papers</h2>
+
+<ul>
+  <li>Insta-Reviewer: A Data-Driven Approach for Generating Instant Feedback on Students’ Project Reports. Qinjin Jia, Mitchell Young, Yunkai Xiao, Jialin Cui, Chengyuan Liu, Parvez Rashid, Edward Gehringer [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-long-papers.1/index.html">paper</a>] <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /></li>
+  <li>Building a Reinforcement Learning Environment from Limited Data to Optimize Teachable Robot Interventions. Tristan Maidment, Mingzhi Yu, Nikki Lobczowski, Adriana Kovashka, Erin Walker, Diane Litman, Timothy Nokes-Malach [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-long-papers.6/">paper</a>] <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /></li>
+  <li>Automatic Short Math Answer Grading via In-context Meta-learning. Mengxue Zhang, Sami Baral, Neil Heffernan, Andrew Lan [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-long-papers.11/">paper</a>] <img src="https://img.shields.io/badge/%20-automated_short_answer_grading_(ASAG)-880808?style=flat-square" alt="automated short answer grading (ASAG)" /> <img src="https://img.shields.io/badge/%20-math-E0FFFF?style=flat-square" alt="math" /></li>
+  <li>
+    <p>Going Deep and Far: Gaze-based Models Predict Multiple Depths of Comprehension During and One Week Following Reading. Megan J. Caruso, Candace E. Peacock, Rosy Southwell, Guojing Zhou, Sidney K. D’Mello [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-long-papers.13/">paper</a>] <img src="https://img.shields.io/badge/%20-reading_comprehension-000080?style=flat-square" alt="reading-comprehension" /></p>
+  </li>
+  <li>Individual Fairness Evaluation for Automated Essay Scoring System. Afrizal Doewes, Akrati Saxena, Yulong Pei, Mykola Pechenizkiy [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-long-papers.18/">paper</a>] <img src="https://img.shields.io/badge/%20-automated_writing_evaluation_(AWE)-AA4A44?style=flat-square" alt="automated writing evaluation (AWE)" /></li>
+  <li>Challenges and Feasibility of Automatic Speech Recognition for Modeling Student Collaborative Discourse in Classrooms. Rosy Southwell, Samuel Pugh, E. Margaret Perkoff, Charis Clevenger, Jeffrey Bush, Rachel Lieber, Wayne Ward, Peter Foltz, Sidney D’Mello [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-long-papers.26/">paper</a>] <img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /></li>
+</ul>
+
+<h2 id="short-papers">Short Papers</h2>
+
+<ul>
+  <li>Improving problem detection in peer assessment through pseudo-labeling using semi-supervised learning. Chengyuan Liu, Jialin Cui, Ruixuan Shang, Yunkai Xiao, Qinjin Jia, Edward Gehringer [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-short-papers.37/">paper</a>] <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /></li>
+  <li>Grade Prediction via Prior Grades and Text Mining on Course Descriptions: Course Outlines and Intended Learning Outcomes. Jiawei Li, S. Supraja, Wei Qiu, Andy W. H. Khong [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-short-papers.44/">paper</a>] <img src="https://img.shields.io/badge/%20-assessment-FFBF00?style=flat-square" alt="assessment" /></li>
+  <li>Modeling One-on-one Online Tutoring Discourse using an Accountable Talk Framework. Renu Balyan, Tracy Arner, Karen Taylor, Jinnie Shin, Michelle Banawan, Walter Leite, Danielle McNamara [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-short-papers.48/">paper</a>] <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /> <img src="https://img.shields.io/badge/%20-math-E0FFFF?style=flat-square" alt="math" /></li>
+  <li>Using Markov Models and Random Walks to Examine Strategy Use of More or Less Successful Comprehenders. Katerina Christhilf, Natalie Newton, Reese Butterfuss, Kathryn S. McCarthy, Laura K. Allen, Joseph P. Magliano, Danielle S. McNamara [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-short-papers.49/">paper</a>] <img src="https://img.shields.io/badge/%20-reading_comprehension-000080?style=flat-square" alt="reading-comprehension" /></li>
+  <li>No Meaning Left Unlearned: Predicting Learners’ Knowledge of Atypical Meanings of Words from Vocabulary Tests for Their Typical Meanings. Yo Ehara [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-short-papers.50/">paper</a>] <img src="https://img.shields.io/badge/%20-vocabulary_acquisition-violet?style=flat-square" alt="vocabulary-acquisition" /></li>
+  <li>Going beyond “Good Job”: Analyzing Helpful Feedback from the Student’s Perspective. M Parvez Rashid, Yunkai Xiao, Edward F. Gehringer [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-short-papers.53/">paper</a>] <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /></li>
+</ul>
+
+<h2 id="posters">Posters</h2>
+
+<ul>
+  <li>Linguistic Profiles of Students Interacting with Conversation-Based Assessment Systems. Carol M. Forsyth, Jesse R. Sparks, Jonathan Steinberg &amp; Laura McCulla [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-posters.66/">paper</a>] <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /></li>
+  <li>Improved Automated Essay Scoring using Gaussian Multi-Class SMOTE for Dataset Sampling. Jih Soong Tan, Ian K. T. Tan, Lay Ki Soon, Huey Fang Ong [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-posters.75/">paper</a>] <img src="https://img.shields.io/badge/%20-automated_writing_evaluation_(AWE)-AA4A44?style=flat-square" alt="automated writing evaluation (AWE)" /></li>
+  <li>A Topic-Centric Crowdsourced Assisted Biomedical Literature Review Framework for Academics. Ryan Hodgson, Jingyun Wang, Alexandra Cristea, Fumiko Matsuzaki, Hiroyuki Kubota [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-posters.76/">paper</a>]</li>
+  <li>A deep reinforcement learning approach to automatic formative feedback. Aubrey Condor, Zachary Pardos <a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-posters.78/">paper</a> <img src="https://img.shields.io/badge/%20-automated_short_answer_grading_(ASAG)-880808?style=flat-square" alt="automated short answer grading (ASAG)" /> <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /></li>
+  <li>Preliminary Experiments with Transformer based Approaches To Automatically Inferring Domain Models from Textbooks. Rabin Banjade, Priti Oli, Lasang Jimba Tamang, Vasile Rus [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-posters.79/">paper</a>] <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" /></li>
+  <li>Leveraging Auxiliary Data from Similar Problems to Improve Automatic Open Response Scoring. Raysa Rivera-Bergollo, Sami Baral, Anthony Botelho, Neil Heffernan [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-posters.81/">paper</a>] <img src="https://img.shields.io/badge/%20-assessment-FFBF00?style=flat-square" alt="assessment" /></li>
+  <li>Format-Aware Item Response Theory for Predicting Vocabulary Proficiency. Boxuan Ma, Gayan Prasad Hettiarachchi, Yuji Ando [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-posters.84/">paper</a>] <img src="https://img.shields.io/badge/%20-vocabulary_acquisition-violet?style=flat-square" alt="vocabulary-acquisition" /></li>
+  <li>Towards Automated Generation and Evaluation of Questions in Educational Domains. Shravya Bhat, Huy Nguyen, Steven Moore, John Stamper, Majd Sakr, Eric Nyberg [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-posters.85/">paper</a>] <img src="https://img.shields.io/badge/%20-automated_item_generation_(AIG)-red?style=flat-square" alt="automated item generation (AIG)" /></li>
+  <li>MOOC-Rec: Instructional Video Clip Recommendation for MOOC Forum Questions. Peide Zhu, Claudia Hauff, Jie Yang [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-posters.86/">paper</a>] <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" /></li>
+  <li>Do College Students Learn Math the Same Way as Middle School Students? On the Transferability of Findings on Within-Problem Supports in Intelligent Tutoring Systems. Michael Smalenberger, Kelly Smalenberger [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-posters.95/">paper</a>] <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /> <img src="https://img.shields.io/badge/%20-math-E0FFFF?style=flat-square" alt="math" /></li>
+  <li>Recommendation System of Mobile Language Learning Applications: Similarity versus Diversity in Learner Preference. Juyeong Song, Kisu Yang, Hyeji Jang, Hyo-Jeong So [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-posters.97/">paper</a>] <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /></li>
+  <li>Selecting Reading Texts Suitable for Incidental Vocabulary Learning by Considering the Estimated Distribution of Acquired Vocabulary. Yo Ehara [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-posters.99/">paper</a>] <img src="https://img.shields.io/badge/%20-vocabulary_acquisition-violet?style=flat-square" alt="vocabulary-acquisition" /></li>
+</ul>
+
+<h2 id="doctoral-consortium">Doctoral Consortium</h2>
+
+<ul>
+  <li>Identifying Explanations Within Student-Tutor Chat Logs. Ethan Prihar, Alexander Moore, Neil Heffernan [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-doctoral-consortium.100/">paper</a>] <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /> <img src="https://img.shields.io/badge/%20-math-E0FFFF?style=flat-square" alt="math" /></li>
+  <li>Improving Automated Assessment and Feedback for Student Open-responses in Mathematics. Sami Baral [<a href="https://educationaldatamining.org/edm2022/proceedings/2022.EDM-doctoral-consortium.104/">paper</a>] <img src="https://img.shields.io/badge/%20-assessment-FFBF00?style=flat-square" alt="assessment" /> <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /></li>
+</ul>]]></content><author><name>BEA Team</name><email>bea.nlp.workshop@gmail.com</email></author><category term="blog" /><category term="conferences" /><category term="EDM" /><category term="IAALDE" /><summary type="html"><![CDATA[A list of interesting papers on EduNLP at the 2022 EDM conference]]></summary></entry><entry><title type="html">Educational NLP at NAACL 2022</title><link href="http://localhost:4000/blog/edunlp-at-naacl2022/" rel="alternate" type="text/html" title="Educational NLP at NAACL 2022" /><published>2022-08-05T00:00:00+02:00</published><updated>2022-08-05T00:00:00+02:00</updated><id>http://localhost:4000/blog/edunlp-at-naacl2022</id><content type="html" xml:base="http://localhost:4000/blog/edunlp-at-naacl2022/"><![CDATA[<p><strong>Proceedings</strong>: <a href="https://aclanthology.org/events/naacl-2022/">https://aclanthology.org/events/naacl-2022/</a></p>
+
+<p><strong>Topics</strong>: <img src="https://img.shields.io/badge/%20-automated_item_generation_(AIG)-red?style=flat-square" alt="automated item generation (AIG)" /> <img src="https://img.shields.io/badge/%20-automated_short_answer_grading_(ASAG)-880808?style=flat-square" alt="automated short answer grading (ASAG)" /> <img src="https://img.shields.io/badge/%20-automated_writing_evaluation_(AWE)-AA4A44?style=flat-square" alt="automated writing evaluation (AWE)" /> <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" /> <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-grammatical_error_correction_(GEC)-yellowgreen?style=flat-square" alt="grammatical error correction (GEC)" /> <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /> <img src="https://img.shields.io/badge/%20-programming-7393B3?style=flat-square" alt="programming" /> <img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /> <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></p>
+
+<ul>
+  <li>Towards Process-Oriented, Modular, and Versatile Question Generation that Meets Educational Needs. Xu Wang, Simin Fan, Jessica Houghton, and Lu Wang [<a href="https://aclanthology.org/2022.naacl-main.22.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="AIG" /></li>
+  <li>Quiz Design Task: Helping Teachers Create Quizzes with Automated Question Generation. Philippe Laban, Chien-Sheng Wu, Lidiya Murakhovs’ka, Wenhao Liu, Caiming Xiong [<a href="https://aclanthology.org/2022.findings-naacl.9/">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="AIG" /></li>
+  <li>Unsupervised Domain Adaptation for Question Generation with DomainData Selection and Self-training. Peide Zhu, Claudia Hauff [<a href="https://aclanthology.org/2022.findings-naacl.183.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="AIG" /></li>
+  <li>The Case for a Single Model that can Both Generate Continuations and Fill-in-the-Blank. Daphne Ippolito, Liam Dugan, Emily Reif, Ann Yuan, Andy Coenen, Chris Callison-Burch [<a href="https://aclanthology.org/2022.findings-naacl.185.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="AIG" /></li>
+  <li>Do Deep Neural Nets Display Human-like Attention in Short Answer Scoring?. Zijie Zeng, Xinyu Li, Dragan Gasevic, and Guanliang Chen [<a href="https://aclanthology.org/2022.naacl-main.14.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-ASAG-880808?style=flat-square" alt="ASAG" /></li>
+  <li>Multi-Relational Graph Transformer for Automatic Short Answer Grading. Rajat Agarwal, Varun Khurana, Karish Grover, Mukesh Mohania, Vikram Goyal [<a href="https://aclanthology.org/2022.naacl-main.146.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-ASAG-880808?style=flat-square" alt="ASAG" /></li>
+  <li>On the Use of Bert for Automated Essay Scoring: Joint Learning of Multi-Scale Essay Representation. Yongjie Wang, Chuan Wang, Ruobing Li, Hui Lin [<a href="https://aclanthology.org/2022.naacl-main.249.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AWE-AA4A44?style=flat-square" alt="AWE" /></li>
+  <li>Many Hands Make Light Work: Using Essay Traits to Automatically Score Essays. Rahul Kumar, Sandeep Mathias, Sriparna Saha, and Pushpak Bhattacharyya [<a href="https://aclanthology.org/2022.naacl-main.106.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AWE-AA4A44?style=flat-square" alt="AWE" /></li>
+  <li>One Size Does Not Fit All: The Case for Personalised Word Complexity Models. Sian Gooding and Manuel Tragut [<a href="https://aclanthology.org/2022.findings-naacl.27/">paper</a>] <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" /></li>
+  <li>Complex Word Identification in Vietnamese: Towards Vietnamese Text Simplification. Phuong Nguyen, David Kauchak [<a href="https://aclanthology.org/2022.mia-1.6.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" /></li>
+  <li>The USMLE® Step 2 Clinical Skills Patient Note Corpus. Victoria Yaneva, Janet Mee, Le An Ha, Polina Harik, Michael Jodoin, Alex Mechaber [<a href="https://aclanthology.org/2022.naacl-main.208.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /></li>
+  <li>ErAConD: Error Annotated Conversational Dialog Dataset for Grammatical Error Correction. Xun Yuan, Derek Pham, Sam Davidson, and Zhou Yu [<a href="https://aclanthology.org/2022.naacl-main.5.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>MuCGEC: a Multi-Reference Multi-Source Evaluation Dataset for Chinese Grammatical Error Correction. Yue Zhang, Zhenghua Li, Zuyi Bao, Jiacheng Li, Bo Zhang, Chen Li, Fei Huang, Min Zhang [<a href="https://aclanthology.org/2022.naacl-main.227.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>CS1QA: A Dataset for Assisting Code-based Question Answering in an Introductory Programming Course. Changyoon Lee, Yeon Seonwoo, Alice Oh [<a href="https://aclanthology.org/2022.naacl-main.148.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-programming-7393B3?style=flat-square" alt="programming" /></li>
+  <li>Frustratingly Easy System Combination for Grammatical Error Correction. Muhammad Reza Qorib, Seung-Hoon Na, Hwee Tou Ng [<a href="https://aclanthology.org/2022.naacl-main.143.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>Abstraction not Memory: BERT and the English Article System. Harish Tayyar Madabushi, Dagmar Divjak, Petar Milin [<a href="https://aclanthology.org/2022.naacl-main.67.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /></li>
+  <li>Grapheme-to-Phoneme Conversion for Thai using Neural Regression Models. Tomohiro Yamasaki [<a href="https://aclanthology.org/2022.naacl-main.315.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /></li>
+  <li>Controllable Sentence Simplification via Operation Classification. Liam Cripwell, Joël Legrand, Claire Gardent [<a href="https://aclanthology.org/2022.findings-naacl.161.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+</ul>]]></content><author><name>BEA Team</name><email>bea.nlp.workshop@gmail.com</email></author><category term="blog" /><category term="conferences" /><category term="NAACL" /><summary type="html"><![CDATA[A list of interesting papers on EduNLP at the 2022 NAACL conference]]></summary></entry><entry><title type="html">Educational NLP at LREC 2022</title><link href="http://localhost:4000/blog/edunlp-at-lrec2022/" rel="alternate" type="text/html" title="Educational NLP at LREC 2022" /><published>2022-08-01T00:00:00+02:00</published><updated>2022-08-01T00:00:00+02:00</updated><id>http://localhost:4000/blog/edunlp-at-lrec2022</id><content type="html" xml:base="http://localhost:4000/blog/edunlp-at-lrec2022/"><![CDATA[<p><strong>Proceedings</strong>: <a href="http://www.lrec-conf.org/proceedings/lrec2022/index.html">http://www.lrec-conf.org/proceedings/lrec2022/index.html</a></p>
+
+<p><strong>Topics</strong>: <img src="https://img.shields.io/badge/%20-automated_item_generation_(AIG)-red?style=flat-square" alt="automated item generation (AIG)" /> <img src="https://img.shields.io/badge/%20-argument_mining-ffd700?style=flat-square" alt="argument-mining" /> <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" /> <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /> <img src="https://img.shields.io/badge/%20-discourse-orange?style=flat-square" alt="discourse" /> <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /> <img src="https://img.shields.io/badge/%20-grammatical_error_correction_(GEC)-yellowgreen?style=flat-square" alt="grammatical error correction (GEC)" /> <img src="https://img.shields.io/badge/%20-grammatical_error_detection_(GED)-green?style=flat-square" alt="grammatical error detection (GED)" /> <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /> <img src="https://img.shields.io/badge/%20-programming-7393B3?style=flat-square" alt="programming" /> <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /> <img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /> <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /> <img src="https://img.shields.io/badge/%20-vocabulary_acquisition-violet?style=flat-square" alt="vocabulary-acquisition" /> <img src="https://img.shields.io/badge/%20-writing_assistants-blueviolet?style=flat-square" alt="writing-assistants" /></p>
+
+<ul>
+  <li>Generating Questions from Wikidata Triples. Kelvin Han, Thiago Castro Ferreira and Claire Gardent [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.29.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="AIG" /></li>
+  <li>CEPOC: The Cambridge Exams Publishing Open Cloze dataset. Mariano Felice, Shiva Taslimipoor, Øistein E. Andersen and Paula Buttery [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.456.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="AIG" /> <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /></li>
+  <li>JADE: Corpus for Japanese Definition Modelling. Han Huang, Tomoyuki Kajiwara and Yuki Arase [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.743.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="AIG" /> <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /></li>
+  <li>Argument Similarity Assessment in German for Intelligent Tutoring: Crowdsourced Dataset and First Experiments. Xiaoyu Bai and Manfred Stede [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.234.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-argument_mining-ffd700?style=flat-square" alt="argument-mining" /> <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /></li>
+  <li>Subjective Text Complexity Assessment for German. Laura Seiffe, Fares Kallel, Sebastian Möller, Babak Naderi and Roland Roller [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.74.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" /></li>
+  <li>CTAP for Chinese:A Linguistic Complexity Feature Automatic Calculation Platform. Yue Cui, Junhui Zhu, Liner Yang, Xuezhi Fang, Xiaobin Chen, Yujie Wang and Erhong Yang [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.592.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" /></li>
+  <li>EXPRES Corpus for A Field-specific Automated Exploratory Study of L2 English Expert Scientific Writing. Ana-Maria Bucur, Madalina Chitez, Valentina Muresan, Andreea Dinca and Roxana Rogobete [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.507.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" /> <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /></li>
+  <li>Morphological Complexity of Children Narratives in Eight Languages. Gordana Hržica, Chaya Liebeskind, Kristina Š. Despot, Olga Dontcheva-Navratilova, Laura Kamandulytė-Merfeldienė, Sara Košutar, Matea Kramarić and Giedrė Valūnaitė Oleškevičienė [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.506.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" /> <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /></li>
+  <li>MOTIF: Contextualized Images for Complex Words to Improve Human Reading. Xintong Wang, Florian Schneider, Özge Alacam, Prateek Chaudhury and Chris Biemann [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.263.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" /> <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /></li>
+  <li>RoomReader: A Multimodal Corpus of Online Multiparty Conversational Interactions. Justine Reverdy, Sam O’Connor Russell, Louise Duquenne, Diego Garaialde, Benjamin R. Cowan and Naomi Harte [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.268.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /></li>
+  <li>The TalkMoves Dataset: K-12 Mathematics Lesson Transcripts Annotated for Teacher and Student Discursive Moves. Abhijit Suresh, Jennifer Jacobs, Charis Harty, Margaret Perkoff, James H. Martin and Tamara Sumner [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.497.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /></li>
+  <li>Dataset and Baseline for Automatic Student Feedback Analysis. Missaka Herath, Kushan Chamindu, Hashan Maduwantha and Surangika Ranathunga [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.219.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /></li>
+  <li>LeSpell - A Multi-Lingual Benchmark Corpus of Spelling Errors to Develop Spellchecking Methods for Learner Language. Marie Bexte, Ronja Laarmann-Quante, Andrea Horbach and Torsten Zesch [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.73.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>Construction of a Quality Estimation Dataset for Automatic Evaluation of Japanese Grammatical Error Correction. Daisuke Suzuki, Yujin Takahashi, Ikumi Yamashita, Taichi Aida, Tosho Hirasawa, Michitaka Nakatsuji, Masato Mita and Mamoru Komachi [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.596.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>ProQE: Proficiency-wise Quality Estimation dataset for Grammatical Error Correction. Yujin Takahashi, Masahiro Kaneko, Masato Mita and Mamoru Komachi [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.644.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>The Tembusu Treebank: An English Learner Treebank. Luís Morgado da Costa, Francis Bond and Roger V. P. Winder [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.515.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-GED-green?style=flat-square" alt="GED" /></li>
+  <li>MuLVE, A Multi-Language Vocabulary Evaluation Data Set. Anik Jacobsen, Salar Mohtaj and Sebastian Möller [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.70.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /></li>
+  <li>LaVA – Latvian Language Learner corpus. Roberts Darģis, Ilze Auziņa, Inga Kaija, Kristīne Levāne-Petrova and Kristīne Pokratniece [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.77.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /></li>
+  <li>Semi-automatically Annotated Learner Corpus for Russian. Anisia Katinskaia, Maria Lebedeva, Jue Hou and Roman Yangarber [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.88.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /></li>
+  <li>LeConTra: A Learner Corpus of English-to-Dutch News Translation. Bram Vanroy and Lieve Macken [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.192.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /></li>
+  <li>Representing the Toddler Lexicon: Do the Corpus and Semantics Matter? Jennifer Weber and Eliana Colunga [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.421.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /></li>
+  <li>ChiSense-12: An English Sense-Annotated Child-Directed Speech Corpus. Francesco Cabiddu, Lewis Bott, Gary Jones and Chiara Gambi [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.557.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /></li>
+  <li>Predicting the Proficiency Level of Nonnative Hebrew Authors. Isabelle Nguyen and Shuly Wintner [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.573.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /></li>
+  <li>The Hebrew Essay Corpus. Chen Gafni, Anat Prior and Shuly Wintner [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.598.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /></li>
+  <li>Image Description Dataset for Language Learners. Kento Tanaka, Taichi Nishimura, Hiroaki Nanjo, Keisuke Shirai, Hirotaka Kameko and Masatake Dantsuji [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.735.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /></li>
+  <li>Dataset of Student Solutions to Algorithm and Data Structure Programming Assignments. Fynn Petersen-Frey, Marcus Soll, Louis Kobras, Melf Johannsen, Peter Kling and Chris Biemann [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.101.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-programming-7393B3?style=flat-square" alt="programming" /></li>
+  <li>NyLLex: A Novel Resource of Swedish Words Annotated with Reading Proficiency Level. Daniel Holmer and Evelina Rennes [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.141.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /></li>
+  <li>The Copenhagen Corpus of Eye Tracking Recordings from Natural Reading of Danish Texts. Nora Hollenstein, Maria Barrett and Marina Björnsdóttir [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.182.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /></li>
+  <li>Reading Time and Vocabulary Rating in the Japanese Language: Large-Scale Japanese Reading Time Data Collection Using Crowdsourcing. Masayuki Asahara [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.555.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /></li>
+  <li>Building Large-Scale Japanese Pronunciation-Annotated Corpora for Reading Heteronymous Logograms. Fumikazu Sato, Naoki Yoshinaga and Masaru Kitsuregawa [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.770.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /></li>
+  <li>Klexikon: A German Dataset for Joint Summarization and Simplification. Dennis Aumiller and Michael Gertz [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.288.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>Simple TICO-19: A Dataset for Joint Translation and Simplification of COVID-19 Texts. Matthew Shardlow and Fernando Alva-Manchego [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.331.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>ALEXSIS: A Dataset for Lexical Simplification in Spanish. Daniel Ferrés and Horacio Saggion <a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.383.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>CWID-hi: A Dataset for Complex Word Identification in Hindi Text. Gayatri Venugopal, Dhanya Pramod and Ravi Shekhar [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.604.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>TallVocabL2Fi: A Tall Dataset of 15 Finnish L2 Learners’ Vocabulary. Frankie Robertson, Li-Hsin Chang and Sini Söyrinki [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.685.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-corpora-black?style=flat-square" alt="corpora" /> <img src="https://img.shields.io/badge/%20-vocabulary_acquisition-violet?style=flat-square" alt="vocabulary-acquisition" /></li>
+  <li>Automating Idea Unit Segmentation and Alignment for Assessing Reading Comprehension via Summary Protocol Analysis. Marcello Gecchele, Hiroaki Yamada, Takenobu Tokunaga, Yasuyo Sawaki and Mika Ishizuka [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.498.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-discourse-orange?style=flat-square" alt="discourse" /> <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /></li>
+  <li>Misspelling Semantics in Thai. Pakawat Nakwijit and Matthew Purver [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.24.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>English Language Spelling Correction as an Information Retrieval Task Using Wikipedia Search Statistics. Kyle Goslin and Markus Hofmann [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.48.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>On the Robustness of Cognate Generation Models. Winston Wu and David Yarowsky [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.458.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>Developing a Spell and Grammar Checker for Icelandic using an Error Corpus. Hulda Óladóttir, Þórunn Arnardóttir, Anton Ingason and Vilhjálmur Þorsteinsson [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.496.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>Enriching Grammatical Error Correction Resources for Modern Greek. Katerina Korre and John Pavlopoulos [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.532.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>Automatic Classification of Russian Learner Errors. Alla Rozovskaya [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.605.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>COSMOS: Experimental and Comparative Studies of Concept Representations in Schoolchildren. Jeanne Villaneau and Farida SAID [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.563.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /></li>
+  <li>Perceived Text Quality and Readability in Extractive and Abstractive Summaries. Julius Monsen and Evelina Rennes [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.32.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /></li>
+  <li>FABRA: French Aggregator-Based Readability Assessment toolkit. Rodrigo Wilkens, David Alfter, Xiaoou Wang, Alice Pintard, Anaïs Tack, Kevin P. Yancey and Thomas François [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.130.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /></li>
+  <li>AiRO - an Interactive Learning Tool for Children at Risk of Dyslexia. Peter Juel Henrichsen and Stine Fuglsang Engmose [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.494.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /></li>
+  <li>Trends, Limitations and Open Challenges in Automatic Readability Assessment Research. Sowmya Vajjala [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.574.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /></li>
+  <li>2nd Workshop on Tools and Resources for People with REAding DIfficulties (READI) [<a href="https://cental.uclouvain.be/readi2022/readi_2022_proceedings.pdf">proceedings</a>] <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /> <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>MUSS: Multilingual Unsupervised Sentence Simplification by Mining Paraphrases. Louis Martin, Angela Fan, Éric de la Clergerie, Antoine Bordes and Benoît Sagot [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.176.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>HECTOR: A Hybrid TExt SimplifiCation TOol for Raw Texts in French. Amalia Todirascu, Rodrigo Wilkens, Eva Rolin, Thomas François, Delphine Bernhard and Núria Gala [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.493.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>One Document, Many Revisions: A Dataset for Classification and Description of Edit Intents. Dheeraj Rajagopal, Xuchao Zhang, Michael Gamon, Sujay Kumar Jauhar, Diyi Yang and Eduard Hovy [<a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.591.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-writing_assistants-blueviolet?style=flat-square" alt="writing-assistants" /></li>
+</ul>]]></content><author><name>BEA Team</name><email>bea.nlp.workshop@gmail.com</email></author><category term="blog" /><category term="conferences" /><category term="LREC" /><summary type="html"><![CDATA[A list of interesting papers on EduNLP at the 2022 LREC conference]]></summary></entry><entry><title type="html">Educational NLP at ACL 2022</title><link href="http://localhost:4000/blog/edunlp-at-acl2022/" rel="alternate" type="text/html" title="Educational NLP at ACL 2022" /><published>2022-08-01T00:00:00+02:00</published><updated>2022-08-01T00:00:00+02:00</updated><id>http://localhost:4000/blog/edunlp-at-acl2022</id><content type="html" xml:base="http://localhost:4000/blog/edunlp-at-acl2022/"><![CDATA[<p><strong>Proceedings</strong>: <a href="https://aclanthology.org/events/acl-2022/">https://aclanthology.org/events/acl-2022/</a></p>
+
+<p><strong>Topics</strong>: <img src="https://img.shields.io/badge/%20-automated_item_generation_(AIG)-red?style=flat-square" alt="automated item generation (AIG)" /> <img src="https://img.shields.io/badge/%20-automated_short_answer_grading_(ASAG)-880808?style=flat-square" alt="automated short answer grading (ASAG)" /> <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" /> <img src="https://img.shields.io/badge/%20-discourse-orange?style=flat-square" alt="discourse" />  <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /> <img src="https://img.shields.io/badge/%20-grammatical_error_correction_(GEC)-yellowgreen?style=flat-square" alt="grammatical error correction (GEC)" /> <img src="https://img.shields.io/badge/%20-grammatical_error_detection_(GED)-green?style=flat-square" alt="grammatical error detection (GED)" /> <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /> <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /> <img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /> <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /> <img src="https://img.shields.io/badge/%20-writing_assistants-blueviolet?style=flat-square" alt="writing-assistants" /></p>
+
+<ul>
+  <li>Controllable Dictionary Example Generation: Generating Example Sentences for Specific Targeted Audiences. Xingwei He, Siu Ming Yiu [<a href="https://aclanthology.org/2022.acl-long.46.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="AIG" /></li>
+  <li>It is AI’s Turn to Ask Humans a Question: Question-Answer Pair Generation for Children’s Story Books. Bingsheng Yao, Dakuo Wang, Tongshuang Wu, Zheng Zhang, Toby Jia-Jun Li, Mo Yu, Ying Xu [<a href="https://aclanthology.org/2022.acl-long.54.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="AIG" /></li>
+  <li>Educational Question Generation of Children Storybooks via Question Type Distribution Learning and Event-centric Summarization. Zhenjie Zhao, Yufang Hou, Dakuo Wang, Mo Yu, Chengzhong Liu, Xiaojuan Ma [<a href="https://aclanthology.org/2022.acl-long.348.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="AIG" /></li>
+  <li>Multitasking Framework for Unsupervised Simple Definition Generation. Cunliang Kong, Yun Chen, Hengyuan Zhang, Liner Yang, Erhong Yang [<a href="https://aclanthology.org/2022.acl-long.409.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="AIG" /></li>
+  <li>CQG: A Simple and Effective Controlled Generation Framework for Multi-hop Question Generation. Zichu Fei, Qi Zhang, Tao Gui, Di Liang, Sirui Wang, Wei Wu, Xuanjing Huang [<a href="https://aclanthology.org/2022.acl-long.475.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="AIG" /></li>
+  <li>Automatic Generation of Distractors for Fill-in-the-Blank Exercises with Round-Trip Neural Machine Translation. Subhadarshi Panda, Frank Palma Gomez, Michael Flor, Alla Rozovskaya [<a href="https://aclanthology.org/2022.acl-srw.31.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="AIG" /></li>
+  <li>Constructing Open Cloze Tests Using Generation and Discrimination Capabilities of Transformers. Mariano Felice, Shiva Taslimipoor, Paula Buttery [<a href="https://aclanthology.org/2022.findings-acl.100.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="AIG" /></li>
+  <li>A Feasibility Study of Answer-Agnostic Question Generation for Education. Liam Dugan, Eleni Miltsakaki, Shriyash Upadhyay, Etan Ginsberg, Hannah Gonzalez, DaHyeon Choi, Chuning Yuan, Chris Callison-Burch [<a href="https://aclanthology.org/2022.findings-acl.151.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="AIG" /></li>
+  <li>Question Generation for Reading Comprehension Assessment by Modeling How and What to Ask. Bilal Ghanem, Lauren Lutz Coleman, Julia Rivard Dexter, Spencer von der Ohe, Alona Fyshe [<a href="https://aclanthology.org/2022.findings-acl.168.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="AIG" /></li>
+  <li>Generating Scientific Definitions with Controllable Complexity. Tal August, Katharina Reinecke, Noah A. Smith [<a href="https://aclanthology.org/2022.acl-long.569.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="AIG" /> <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" /></li>
+  <li>Your Answer is Incorrect… Would you like to know why? Introducing a Bilingual Short Answer Feedback Dataset. Anna Filighera, Siddharth Parihar, Tim Steuer, Tobias Meuser, Sebastian Ochs [<a href="https://aclanthology.org/2022.acl-long.587.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-ASAG-880808?style=flat-square" alt="ASAG" /> <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /></li>
+  <li>Domain Adaptation in Multilingual and Multi-Domain Monolingual Settings for Complex Word Identification. George-Eduard Zaharia, Razvan-Alexandru Smadu Dumitru-Clementin Cercel, Mihai Dascalu [<a href="https://aclanthology.org/2022.acl-long.6.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" /> <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /></li>
+  <li>ILDAE: Instance-Level Difficulty Analysis of Evaluation Data. Neeraj Varshney, Swaroop Mishra, Chitta Baral [<a href="https://aclanthology.org/2022.acl-long.240.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" /></li>
+  <li>Predicting Difficulty and Discrimination of Natural Language Questions. Matthew Byrd, Shashank Srivastava [<a href="https://aclanthology.org/2022.acl-short.15.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" /></li>
+  <li>Modeling Persuasive Discourse to Adaptively Support Students’ Argumentative Writing. Thiemo Wambsganss, Christina Niklaus [<a href="https://aclanthology.org/2022.acl-long.599.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-discourse-orange?style=flat-square" alt="discourse" /> <img src="https://img.shields.io/badge/%20-writing_assistants-blueviolet?style=flat-square" alt="writing-assistants" /></li>
+  <li>Predicting Sentence Deletions for Text Simplification Using a Functional Discourse Structure. Bohan Zhang, Prafulla Kumar Choubey, Ruihong Huang [<a href="https://aclanthology.org/2022.acl-short.28.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-discourse-orange?style=flat-square" alt="discourse" /> <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>“You might think about slightly revising the title”: Identifying Hedges in Peer-tutoring Interactions. Yann Raphalen, Chloé Clavel, Justine Cassell [<a href="https://aclanthology.org/2022.acl-long.153.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /></li>
+  <li>Ensembling and Knowledge Distilling of Large Sequence Taggers for Grammatical Error Correction. Maksym Tarnavskyi, Artem Chernodub, Kostiantyn Omelianchuk [<a href="https://aclanthology.org/2022.acl-long.266.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>Interpretability for Language Learners Using Example-Based Grammatical Error Correction. Masahiro Kaneko, Sho Takase, Ayana Niwa, Naoaki Okazaki [<a href="https://aclanthology.org/2022.acl-long.496.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>Uncertainty Determines the Adequacy of the Mode and the Tractability of Decoding in Sequence-to-Sequence Models. Felix Stahlberg, Ilia Kulikov, Shankar Kumar [<a href="https://aclanthology.org/2022.acl-long.591.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>Adjusting the Precision-Recall Trade-Off with Align-and-Predict Decoding for Grammatical Error Correction. Xin Sun, Houfeng Wang [<a href="https://aclanthology.org/2022.acl-short.77.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>“Is Whole Word Masking Always Better for Chinese BERT?”: Probing on Chinese Grammatical Error Correction. Yong Dai, Linyang Li, Cong Zhou, Zhangyin Feng, Enbo Zhao, Xipeng Qiu, Piji Li, Duyu Tang [<a href="https://aclanthology.org/2022.findings-acl.1.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>MDCSpell: A Multi-task Detector-Corrector Framework for Chinese Spelling Correction. Chenxi Zhu, Ziqiang Ying, Boyu Zhang, Feng Mao [<a href="https://aclanthology.org/2022.findings-acl.98.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>CRASpell: A Contextual Typo Robust Approach to Improve Chinese Spelling Correction. Shulin Liu, Shengkang Song, Tianchi Yue, Tao Yang, Huihui Cai, TingHao Yu, Shengli Sun [<a href="https://aclanthology.org/2022.findings-acl.237.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>The Past Mistake is the Future Wisdom: Error-driven Contrastive Probability Optimization for Chinese Spell Checking. Yinghui Li, Qingyu Zhou, Yangning Li, Zhongli Li, Ruiyang Liu, Rongyi Sun, Zizhen Wang, Chao Li, Yunbo Cao, Hai-Tao Zheng [<a href="https://aclanthology.org/2022.findings-acl.252.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>Type-Driven Multi-Turn Corrections for Grammatical Error Correction. Shaopeng Lai, Qingyu Zhou, Jiali Zeng, Zhongli Li, Chao Li, Yunbo Cao, Jinsong Su [<a href="https://aclanthology.org/2022.findings-acl.254.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-GEC-yellowgreen?style=flat-square" alt="GEC" /></li>
+  <li>Improving Chinese Grammatical Error Detection via Data augmentation by Conditional Error Generation. Tianchi Yue, Shulin Liu, Huihui Cai, Tao Yang, Shengkang Song, TingHao Yu [<a href="https://aclanthology.org/2022.findings-acl.233.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-GED-green?style=flat-square" alt="GED" /></li>
+  <li>Exploring the Capacity of a Large-scale Masked Language Model to Recognize Grammatical Errors. Ryo Nagata, Manabu Kimura, Kazuaki Hanawa [<a href="https://aclanthology.org/2022.findings-acl.324.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-GED-green?style=flat-square" alt="GED" /></li>
+  <li>How can NLP Help Revitalize Endangered Languages? A Case Study and Roadmap for the Cherokee Language. Shiyue Zhang, Benjamin E. Frey, and Mohit Bansal [<a href="https://aclanthology.org/2022.acl-long.108.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /></li>
+  <li>Automatic Gloss Dictionary for Sign Language Learners. Chenchen Xu, Dongxu Li, Hongdong Li, Hanna Suominen, Ben Swift [<a href="https://aclanthology.org/2022.acl-demo.8.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language_learning" /></li>
+  <li>Measuring the Impact of (Psycho-)Linguistic and Readability Features and Their Spill Over Effects on the Prediction of Eye Movement Patterns. Daniel Wiechmann, Yu Qiao, Elma Kerz, Justus Mattern [<a href="https://aclanthology.org/2022.acl-long.362.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /></li>
+  <li>A Neural Pairwise Ranking Model for Readability Assessment. Justin Lee, Sowmya Vajjala [<a href="https://aclanthology.org/2022.findings-acl.300.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /></li>
+  <li>Requirements and Motivations of Low-Resource Speech Synthesis for Language Revitalization. Aidan Pine, Dan Wells, Nathan Brinklow, Patrick Littell, Korin Richmond [<a href="https://aclanthology.org/2022.acl-long.507.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /></li>
+  <li>Evaluating Factuality in Text Simplification. Ashwin Devaraj, William Sheffield, Byron Wallace, Junyi Jessy Li [<a href="https://aclanthology.org/2022.acl-long.506.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>TS-ANNO: An Annotation Tool to Build, Annotate and Evaluate Text Simplification Corpora. Regina Stodden, Laura Kallmeyer [<a href="https://aclanthology.org/2022.acl-demo.14.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>GRS: Combining Generation and Revision in Unsupervised Sentence Simplification. Mohammad Dehghan, Dhruv Kumar, Lukasz Golab [<a href="https://aclanthology.org/2022.findings-acl.77.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-text_simplification-blue?style=flat-square" alt="text-simplification" /></li>
+  <li>QuoteR: A Benchmark of Quote Recommendation for Writing. Fanchao Qi, Yanhui Yang, Jing Yi, Zhili Cheng, Zhiyuan Liu, Maosong Sun [<a href="https://aclanthology.org/2022.acl-long.27.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-writing_assistants-blueviolet?style=flat-square" alt="writing-assistants" /></li>
+  <li>Interactive Word Completion for Plains Cree. William Lane, Atticus Harrigan, Antti Arppe [<a href="https://aclanthology.org/2022.acl-long.232.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-writing_assistants-blueviolet?style=flat-square" alt="writing-assistants" /></li>
+  <li>Understanding Iterative Revision from Human-Written Text. Wanyu Du, Vipul Raheja, Dhruv Kumar, Zae Myung Kim, Melissa Lopez, Dongyeop Kang [<a href="https://aclanthology.org/2022.acl-long.250.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-writing_assistants-blueviolet?style=flat-square" alt="writing-assistants" /></li>
+  <li>An Imitation Learning Curriculum for Text Editing with Non-Autoregressive Models. Sweta Agrawal, Marine Carpuat [<a href="https://aclanthology.org/2022.acl-long.520.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-writing_assistants-blueviolet?style=flat-square" alt="writing-assistants" /></li>
+  <li>Proceedings of the First Workshop on Intelligent and Interactive Writing Assistants (In2Writing 2022). Ting-Hao ‘Kenneth’ Huang, Vipul Raheja, Dongyeop Kang, John Joon Young Chung, Daniel Gissin, Mina Lee, Katy Ilonka Gero [<a href="https://aclanthology.org/2022.in2writing-1.0.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-writing_assistants-blueviolet?style=flat-square" alt="writing-assistants" /></li>
+</ul>]]></content><author><name>BEA Team</name><email>bea.nlp.workshop@gmail.com</email></author><category term="blog" /><category term="conferences" /><category term="ACL" /><summary type="html"><![CDATA[A list of interesting papers on EduNLP at the 2022 ACL conference]]></summary></entry></feed>

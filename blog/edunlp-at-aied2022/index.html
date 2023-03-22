@@ -1,0 +1,532 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.16.4 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Educational NLP at AIED 2022 - SIGEDU</title>
+<meta name="description" content="A list of interesting papers on EduNLP at the 2022 AIED conference">
+
+
+  <meta name="author" content="BEA Team">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="SIGEDU">
+<meta property="og:title" content="Educational NLP at AIED 2022">
+<meta property="og:url" content="http://localhost:4000/blog/edunlp-at-aied2022/">
+
+
+  <meta property="og:description" content="A list of interesting papers on EduNLP at the 2022 AIED conference">
+
+
+
+
+
+  <meta name="twitter:site" content="@aclsigedu">
+  <meta name="twitter:title" content="Educational NLP at AIED 2022">
+  <meta name="twitter:description" content="A list of interesting papers on EduNLP at the 2022 AIED conference">
+  <meta name="twitter:url" content="http://localhost:4000/blog/edunlp-at-aied2022/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2022-08-08T00:00:00+02:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/blog/edunlp-at-aied2022/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "SIGEDU",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="SIGEDU Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE ]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="57x57" href="/assets/images/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/images/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/images/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/images/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/images/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/images/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/images/apple-touch-icon-152x152.png">
+<link rel="icon" type="image/png" href="/assets/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/images/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/assets/images/manifest.json">
+<link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="msapplication-TileImage" content="/assets/images/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logos/sigedu-long-logo.png" alt=""></a>
+        
+        <a class="site-title" href="/"> </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/constitution" >Constitution</a>
+            </li><li class="masthead__menu-item">
+              <a href="/officers" >Officers</a>
+            </li><li class="masthead__menu-item">
+              <a href="/members" >Members</a>
+            </li><li class="masthead__menu-item">
+              <a href="/news" >News</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog" >Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/bea/current" >BEA Workshop</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="/assets/images/avatars/bea-team.png" alt="BEA Team" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">BEA Team</h3>
+    
+    
+      <p class="author__bio" itemprop="description">
+        
+      </p>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:bea.nlp.workshop@gmail.com">
+            <meta itemprop="email" content="bea.nlp.workshop@gmail.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Educational NLP at AIED 2022">
+    <meta itemprop="description" content="A list of interesting papers on EduNLP at the 2022 AIED conference">
+    <meta itemprop="datePublished" content="August 08, 2022">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Educational NLP at AIED 2022
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  6 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p><strong>Proceedings</strong>: <a href="https://link.springer.com/book/10.1007/978-3-031-11644-5#toc">Part I</a> 
+and <a href="https://link.springer.com/book/10.1007/978-3-031-11647-6#toc">Part II</a></p>
+
+<p><strong>Topics</strong>: <img src="https://img.shields.io/badge/%20-automated_item_generation_(AIG)-red?style=flat-square" alt="automated item generation (AIG)" /> <img src="https://img.shields.io/badge/%20-automated_short_answer_grading_(ASAG)-880808?style=flat-square" alt="automated short answer grading (ASAG)" />
+<img src="https://img.shields.io/badge/%20-assessment-FFBF00?style=flat-square" alt="assessment" /> <img src="https://img.shields.io/badge/%20-automated_writing_evaluation_(AWE)-AA4A44?style=flat-square" alt="automated writing evaluation (AWE)" /> <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" />
+<img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /> <img src="https://img.shields.io/badge/%20-discourse-FBCEB1?style=flat-square" alt="discourse" /> <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /> <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" />
+<img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /> <img src="https://img.shields.io/badge/%20-math-E0FFFF?style=flat-square" alt="math" /> <img src="https://img.shields.io/badge/%20-programming-7393B3?style=flat-square" alt="programming" /> <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" />
+<img src="https://img.shields.io/badge/%20-reading_comprehension-000080?style=flat-square" alt="reading-comprehension" /> <img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /> <img src="https://img.shields.io/badge/%20-vocabulary_acquisition-violet?style=flat-square" alt="vocabulary-acquisition" /></p>
+
+<ul>
+  <li>Towards Human-Like Educational Question Generation with Large Language Models. Zichao Wang, Jakob Valdez, Debshila Basu Mallick, and Richard G. Baraniuk [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_13">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="automated item generation (AIG)" /></li>
+  <li>Evaluating AI-Generated Questions: A Mixed-Methods Analysis Using Question Data and Student Perceptions. Rachel Van Campenhout, Martha Hubertz, and Benny G. Johnson [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_28">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="automated item generation (AIG)" /></li>
+  <li>Automatic Riddle Generation for Learning Resources. Niharika Sri Parasa, Chaitali Diwan, and Srinath Srinivasa [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_66">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="automated item generation (AIG)" /></li>
+  <li>Obj2Sub: Unsupervised Conversion of Objective to Subjective Questions. Aarish Chhabra, Nandini Bansal, V. Venktesh, Mukesh Mohania, and Deep Dwivedi [<a href="https://arxiv.org/pdf/2206.11848.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="automated item generation (AIG)" /></li>
+  <li>First Steps Towards Automatic Question Generation and Assessment of LL(1) Grammars. Ricardo Conejo, José del Campo-Ávila, and Beatriz Barros [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_50">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="automated item generation (AIG)" /> <img src="https://img.shields.io/badge/%20-assessment-FFBF00?style=flat-square" alt="assessment" /></li>
+  <li>Auxiliary Task Guided Interactive Attention Model for Question Difficulty Prediction. V. Venktesh, Md. Shad Akhtar, Mukesh Mohania, and Vikram Goyal [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_39">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="automated item generation (AIG)" /> <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" /></li>
+  <li>Question Personalization in an Intelligent Tutoring System. Sabina Elkins, Ekaterina Kochmar, Robert Belfer, Iulian Serban, and Jackie C. K. Cheung [<a href="https://arxiv.org/pdf/2206.14145.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="automated item generation (AIG)" /> <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" /></li>
+  <li>An Automatic Self-explanation Sample Answer Generation with Knowledge Components in a Math Quiz. Ryosuke Nakamoto, Brendan Flanagan, Yiling Dai, Kyosuke Takami, and Hiroaki Ogata [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_46">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="automated item generation (AIG)" /> <img src="https://img.shields.io/badge/%20-math-E0FFFF?style=flat-square" alt="math" /></li>
+  <li>Automatic Question Generation for Scaffolding Self-explanations for Code Comprehension. Lasang J. Tamang, Rabin Banjade, Jeevan Chapagain, and Vasile Rus [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_77">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="automated item generation (AIG)" /> <img src="https://img.shields.io/badge/%20-programming-7393B3?style=flat-square" alt="programming" /></li>
+  <li>Programming Question Generation by a Semantic Network: A Preliminary User Study with Experienced Instructors. Cheng-Yu Chung, and I-Han Hsiao [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_93">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="automated item generation (AIG)" /> <img src="https://img.shields.io/badge/%20-programming-7393B3?style=flat-square" alt="programming" /></li>
+  <li>Assessing Readability by Filling Cloze Items with Transformers. Andrew M. Olney [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_25">paper</a>] <img src="https://img.shields.io/badge/%20-AIG-red?style=flat-square" alt="automated item generation (AIG)" /> <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /></li>
+  <li>Fully Automated Short Answer Scoring of the Trial Tests for Common Entrance Examinations for Japanese University. Haruki Oka, Hung Tuan Nguyen, Cuong Tuan Nguyen, Masaki Nakagawa, and Tsunenori Ishioka [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_15">paper</a>] <img src="https://img.shields.io/badge/%20-ASAG-880808?style=flat-square" alt="automated short answer grading (ASAG)" /></li>
+  <li>Plausibility and Faithfulness of Feature Attribution-Based Explanations in Automated Short Answer Scoring. Tasuku Sato, Hiroaki Funayama, Kazuaki Hanawa, and Kentaro Inui [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_19">paper</a>] <img src="https://img.shields.io/badge/%20-ASAG-880808?style=flat-square" alt="automated short answer grading (ASAG)" /></li>
+  <li>Representing Scoring Rubrics as Graphs for Automatic Short Answer Grading. Aubrey Condor, Zachary Pardos, and Marcia Linn [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_29">paper</a>] <img src="https://img.shields.io/badge/%20-ASAG-880808?style=flat-square" alt="automated short answer grading (ASAG)" /></li>
+  <li>Balancing Cost and Quality: An Exploration of Human-in-the-Loop Frameworks for Automated Short Answer Scoring. Hiroaki Funayama, Tasuku Sato, Yuichiroh Matsubayashi, Tomoya Mizumoto, Jun Suzuki, and Kentaro Inui [<a href="https://arxiv.org/pdf/2206.08288.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-ASAG-880808?style=flat-square" alt="automated short answer grading (ASAG)" /></li>
+  <li>Assessing the Practical Benefit of Automated Short-Answer Graders. Ulrike Padó [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_114">paper</a>] <img src="https://img.shields.io/badge/%20-ASAG-880808?style=flat-square" alt="automated short answer grading (ASAG)" /></li>
+  <li>Towards Generating Counterfactual Examples as Automatic Short Answer Feedback. Anna Filighera, Joel Tschesche, Tim Steuer, Thomas Tregel, and Lisa Wernet [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_17">paper</a>] <img src="https://img.shields.io/badge/%20-ASAG-880808?style=flat-square" alt="automated short answer grading (ASAG)" /> <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /></li>
+  <li>Enhancing Auto-scoring of Student Open Responses in the Presence of Mathematical Terms and Expressions. Sami Baral, Karthik Seetharaman, Anthony F. Botelho, Anzhuo Wang, George Heineman, and Neil T. Heffernan [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_68">paper</a>] <img src="https://img.shields.io/badge/%20-assessment-FFBF00?style=flat-square" alt="assessment" /></li>
+  <li>Leveraging Natural Language Processing for Quality Assurance of a Situational Judgement Test. Okan Bulut, Alexander MacIntosh, and Cole Walsh [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_14">paper</a>] <img src="https://img.shields.io/badge/%20-assessment-FFBF00?style=flat-square" alt="assessment" /></li>
+  <li>Grading Programming Assignments with an Automated Grading and Feedback Assistant. Marcus Messer [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_6">paper</a>] <img src="https://img.shields.io/badge/%20-assessment-FFBF00?style=flat-square" alt="assessment" /> <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /></li>
+  <li>Exploring Fairness in Automated Grading and Feedback Generation of Open-Response Math Problems. Ashish Gurung, and Neil T. Heffernan [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_12">paper</a>] <img src="https://img.shields.io/badge/%20-assessment-FFBF00?style=flat-square" alt="assessment" /> <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /></li>
+  <li>Automated Support to Scaffold Students’ Written Explanations in Science. Purushartha Singh, Rebecca J. Passonneau, Mohammad Wasih, Xuesong Cang, ChanMin Kim, and Sadhana Puntambekar [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_64">paper</a>] <img src="https://img.shields.io/badge/%20-assessment-FFBF00?style=flat-square" alt="assessment" /> <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" /></li>
+  <li>Towards the Automated Evaluation of Legal Casenote Essays. Mladen Raković, Lele Sha, Gerry Nagtzaam, Nick Young, Patrick Stratmann, Dragan Gašević, and Guanliang Chen [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_14">paper</a>] <img src="https://img.shields.io/badge/%20-AWE-AA4A44?style=flat-square" alt="automated writing evaluation (AWE)" /></li>
+  <li>An Automated Writing Evaluation System for Supporting Self-monitored Revising. Diane Litman, Tazin Afrin, Omid Kashefi, Christopher Olshefski, Amanda Godley, and Rebecca Hwa [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_52">paper</a>] <img src="https://img.shields.io/badge/%20-AWE-AA4A44?style=flat-square" alt="automated writing evaluation (AWE)" /></li>
+  <li>Multitask Summary Scoring with Longformers. Robert-Mihai Botarleanu, Mihai Dascalu, Laura K. Allen, Scott Andrew Crossley, and Danielle S. McNamara [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_79">paper</a>] <img src="https://img.shields.io/badge/%20-AWE-AA4A44?style=flat-square" alt="automated writing evaluation (AWE)" /></li>
+  <li>Increasing Teachers’ Trust in Automatic Text Assessment Through Named-Entity Recognition. Candy Walter [<a href="https://www.researchgate.net/profile/Candy-Walter/publication/361511561_Increasing_teachers'_trust_in_automatic_text_assessment_through_named-entity_recognition/links/62b5d64689e4f1160c98713c/Increasing-teachers-trust-in-automatic-text-assessment-through-named-entity-recognition.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-AWE-AA4A44?style=flat-square" alt="automated writing evaluation (AWE)" /> <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" /></li>
+  <li>Semantic Modeling of Programming Practices with Local Knowledge Graphs: The Effects of Question Complexity on Student Performance. Cheng-Yu Chung, and I-Han Hsiao [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_44">paper</a>] <img src="https://img.shields.io/badge/%20-complexity-ff69b4?style=flat-square" alt="complexity" /></li>
+  <li>The Impact of Conversational Agents’ Language on Self-efficacy and Summary Writing. Haiying Li, Fanshuo Cheng, Grace Wang, and Art Graeser [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_48">paper</a>] <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /></li>
+  <li>Developing an Inclusive Q&amp;A Chatbot in Massive Open Online Courses. Songhee Han, and Min Liu [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_2">paper</a>] <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /></li>
+  <li>Using Open Source Technologies and Generalizable Procedures in Conversational and Affective Intelligent Tutoring Systems. Romina Soledad Albornoz-De Luise, Miguel Arevalillo-Herráez, and David Arnau [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_9">paper</a>] <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /></li>
+  <li>Toward Accessible Intelligent Tutoring Systems: Integrating Cognitive Tutors and Conversational Agents. Michael Smalenberger, and Kelly Smalenberger [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_82">paper</a>] <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /></li>
+  <li>Dynamic Conversational Chatbot for Assessing Primary Students. Esa Weerasinghe, Thamashi Kotuwegedara, Rangeena Amarasena, Prasadi Jayasinghe, and Kalpani Manathunga [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_89">paper</a>] <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /></li>
+  <li>A Conversational Recommender System for Exploring Pedagogical Design Patterns. Nasrin Dehbozorgi, and Dinesh Chowdary Attota [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_101">paper</a>] <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /></li>
+  <li>On Providing Natural Language Support for Intelligent Tutoring Systems. Romina Soledad Albornoz-De Luise, Pablo Arnau-González, and Miguel Arevalillo-Herráez [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_116">paper</a>] <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /></li>
+  <li>Human-in-the-Loop Data Collection and Evaluation for Improving Mathematical Conversations. Debajyoti Datta, Maria Phillips, James P. Bywater, Sarah Lilly, Jennifer Chiu, Ginger S. Watson, and Donald E. Brown [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_113">paper</a>] <img src="https://img.shields.io/badge/%20-dialogue-orange?style=flat-square" alt="dialogue" /> <img src="https://img.shields.io/badge/%20-math-E0FFFF?style=flat-square" alt="math" /></li>
+  <li>Modeling Student Discourse in Online Discussion Forums Using Semantic Similarity Based Topic Chains. Harshita Chopra, Yiwen Lin, Mohammad Amin Samadi, Jacqueline Guadalupe Cavazos, Renzhe Yu, Spencer Jaquay, and Nia Nixon [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_91">paper</a>] <img src="https://img.shields.io/badge/%20-discourse-FBCEB1?style=flat-square" alt="discourse" /></li>
+  <li>“Teacher, Can You Say It Again?” Improving Automatic Speech Recognition Performance over Classroom Environments with Limited Data. Danner Schlotterbeck, Abelino Jiménez, Roberto Araya, Daniela Caballero, Pablo Uribe, and Johan Van der Molen Moris [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_15">paper</a>] <img src="https://img.shields.io/badge/%20-discourse-FBCEB1?style=flat-square" alt="discourse" /> <img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /></li>
+  <li>AI-Enabled Personalized Interview Coach in Rural India. Shriniwas Nayak, Satish Kumar, Dolly Agarwal, and Paras Parikh [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_15">paper</a>] <img src="https://img.shields.io/badge/%20-discourse-FBCEB1?style=flat-square" alt="discourse" /> <img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /></li>
+  <li>Improving Automated Evaluation of Formative Assessments with Text Data Augmentation. Keith Cochran, Clayton Cohn, Nicole Hutchins, Gautam Biswas, and Peter Hastings [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_32">paper</a>] <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /></li>
+  <li>Improving the Quality of Students’ Written Reflections Using Natural Language Processing: Model Design and Classroom Evaluation. Ahmed Magooda, Diane Litman, Ahmed Ashraf, and Muhsin Menekse [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_43">paper</a>] <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /></li>
+  <li>Measuring Inconsistency in Written Feedback: A Case Study in Politeness. Wei Dai, Yi-Shan Tsai, Yizhou Fan, Dragan Gašević, and Guanliang Chen [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_49">paper</a>] <img src="https://img.shields.io/badge/%20-feedback-yellow?style=flat-square" alt="feedback" /></li>
+  <li>Machine Learning Techniques to Evaluate Lesson Objectives. Pei Hua Cher, Jason Wen Yau Lee, and Fernando Bello [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_16">paper</a>] <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" /></li>
+  <li>Fine-grained Main Ideas Extraction and Clustering of Online Course Reviews. Chenghao Xiao, Lei Shi, Alexandra Cristea, Zhaoxing Li, and Ziqi Pan [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_24">paper</a>] <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" /></li>
+  <li>Scaling Mixed-Methods Formative Assessments (mixFA) in Classrooms: A Clustering Pipeline to Identify Student Knowledge. Xinyue Chen, and Xu Wang [<a href="https://web.eecs.umich.edu/~xwanghci/papers/mixfa.pdf">paper</a>] <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" /></li>
+  <li>What Is Relevant for Learning? Approximating Readers’ Intuition Using Neural Content Selection. Tim Steuer, Anna Filighera, Gianluca Zimmer, and Thomas Tregel [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_41">paper</a>] <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" /></li>
+  <li>Providing Insights for Open-Response Surveys via End-to-End Context-Aware Clustering. Soheil Esmaeilzadeh, Brian Williams, Davood Shamsi, and Onar Vikingstad [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_44">paper</a>] <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" /></li>
+  <li>Extraction of Useful Observational Features from Teacher Reports for Student Performance Prediction. Menna Fateen, and Tsunenori Mine [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_58">paper</a>] <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" /></li>
+  <li>Reflection as an Agile Course Evaluation Tool. Siaw Ling Lo, Pei Hua Cher, and Fernando Bello [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_55">paper</a>] <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" /></li>
+  <li>Prerequisite Graph Extraction from Lectures. Ilaria Torre, Luca Mirenda, Gianni Vercelli, and Fulvio Mastrogiovanni [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_128">paper</a>] <img src="https://img.shields.io/badge/%20-information_extraction-00FFFF?style=flat-square" alt="information-extraction" /></li>
+  <li>Education Theories and AI Affordances: Design and Implementation of an Intelligent Computer Assisted Language Learning System. Xiaobin Chen, Elizabeth Bear, Bronson Hui, Haemanth Santhi-Ponnusamy, and Detmar Meurers [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_120">paper</a>] <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /></li>
+  <li>Speech and Eye Tracking Features for L2 Acquisition: A Multimodal Experiment. Sofiya Kobylyanskaya [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_8">paper</a>] <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /> <img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /></li>
+  <li>An AI-Based Feedback Visualisation System for Speech Training. Adam T. Wynn, Jingyun Wang, Kaoru Umezawa, and Alexandra I. Cristea [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_104">paper</a>] <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /> <img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /></li>
+  <li>Automatic Identification of Non-native English Speaker’s Phoneme Mispronunciation Tendencies. Shi Pu, Lee Becker, and Misaki Kato [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_126">paper</a>] <img src="https://img.shields.io/badge/%20-language_learning-cyanblue?style=flat-square" alt="language-learning" /> <img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /></li>
+  <li>Assessing Readability of Learning Materials on Artificial Intelligence in English for Second Language Learners. Yo Ehara [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_96">paper</a>] <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /></li>
+  <li>On Applicability of Neural Language Models for Readability Assessment in Filipino. Michael Ibañez, Lloyd Lois Antonie Reyes, Ranz Sapinit, Mohammed Ahmed Hussien, and Joseph Marvin Imperial [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_118">paper</a>] <img src="https://img.shields.io/badge/%20-readability-99ccff?style=flat-square" alt="readability" /></li>
+  <li>Computer-Aided Response-to-Intervention for Reading Comprehension Based on Recommender System. Ming-Chi Liu, Wei-Yang Lin, and Chia-Ling Tsai [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_42">paper</a>] <img src="https://img.shields.io/badge/%20-reading_comprehension-000080?style=flat-square" alt="reading-comprehension" /></li>
+  <li>Automated Scoring for Reading Comprehension via In-context BERT Tuning. Nigel Fernandez, Aritra Ghosh, Naiming Liu, Zichao Wang, Benoît Choffin, Richard Baraniuk, and Andrew Lan [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_69">paper</a>] <img src="https://img.shields.io/badge/%20-reading_comprehension-000080?style=flat-square" alt="reading-comprehension" /></li>
+  <li>How Item and Learner Characteristics Matter in Intelligent Tutoring Systems Data. John Hollander, John Sabatini, and Art Graesser [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_106">paper</a>] <img src="https://img.shields.io/badge/%20-reading_comprehension-000080?style=flat-square" alt="reading-comprehension" /></li>
+  <li>Real-Time Spoken Language Understanding for Orthopedic Clinical Training in Virtual Reality. Han Wei Ng, Aiden Koh, Anthea Foong, Jeremy Ong, Jun Hao Tan, Eng Tat Khoo, and Gabriel Liu [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_61">paper</a>] <img src="https://img.shields.io/badge/%20-speech-lightgrey?style=flat-square" alt="speech" /></li>
+  <li>An Intelligent Interactive Support System for Word Usage Learning in Second Languages. Yo Ehara [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_37">paper</a>] <img src="https://img.shields.io/badge/%20-vocabulary_acquisition-violet?style=flat-square" alt="vocabulary-acquisition" /></li>
+  <li>Predicting Second Language Learners’ Actual Knowledge Using Self-perceived Knowledge. Yo Ehara [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_71">paper</a>] <img src="https://img.shields.io/badge/%20-vocabulary_acquisition-violet?style=flat-square" alt="vocabulary-acquisition" /></li>
+  <li>An Intelligent Multimodal Dictionary for Chinese Character Learning. Jinglei Yu, Jiachen Song, Penghe Chen, and Yu Lu [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_13">paper</a>] <img src="https://img.shields.io/badge/%20-vocabulary_acquisition-violet?style=flat-square" alt="vocabulary-acquisition" /></li>
+  <li>Using Metacognitive Information and Objective Features to Predict Word Pair Learning Success. Bledar Fazlija, and Mohamed Ibrahim [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_39">paper</a>] <img src="https://img.shields.io/badge/%20-vocabulary_acquisition-violet?style=flat-square" alt="vocabulary-acquisition" /></li>
+  <li>Distributional Estimation of Personalized Second-Language Vocabulary Sizes with Wordlists that the Learner is Likely to Know. Yo Ehara [<a href="https://link.springer.com/chapter/10.1007/978-3-031-11647-6_110">paper</a>] <img src="https://img.shields.io/badge/%20-vocabulary_acquisition-violet?style=flat-square" alt="vocabulary-acquisition" /></li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#aied" class="page__taxonomy-item" rel="tag">AIED</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#conferences" class="page__taxonomy-item" rel="tag">conferences</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#iaalde" class="page__taxonomy-item" rel="tag">IAALDE</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#blog" class="page__taxonomy-item" rel="tag">blog</a>
+    
+    </span>
+  </p>
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-08-08T00:00:00+02:00">August 08, 2022</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=aclsigedu&text=Educational+NLP+at+AIED+2022%20http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fedunlp-at-aied2022%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fedunlp-at-aied2022%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fedunlp-at-aied2022%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/blog/edunlp-at-naacl2022/" class="pagination--pager" title="Educational NLP at NAACL 2022
+">Previous</a>
+    
+    
+      <a href="/blog/edunlp-at-edm2022/" class="pagination--pager" title="Educational NLP at EDM 2022
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/aclsigedu" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/sigedu-org/website" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 SIGEDU. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
